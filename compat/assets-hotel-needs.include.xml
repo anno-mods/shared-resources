@@ -10,7 +10,7 @@
   Limit all Hotel needs to vanilla hotel only.
   Mods have to add themselves to the `RequiredBuildings` list.
   
-  <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item/RequiredBuildings[Item/RequiredBuilding='601445']">
+  <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item/RequiredBuildings[Item/Region='Moderate']">
     <Item>
       <RequiredBuilding>my-guid</RequiredBuilding>
       <Region>Moderate</Region>

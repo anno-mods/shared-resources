@@ -22,3 +22,9 @@ Example implementation from `Small Hotels`:
   </Item>
 </ModOp>
 ```
+
+## Some Explanations
+
+The asset with the template `fallback` is just temporary for the modloader.
+It is used to avoid node not found warnings.
+There's always a remove at the end to remove that asset again.
