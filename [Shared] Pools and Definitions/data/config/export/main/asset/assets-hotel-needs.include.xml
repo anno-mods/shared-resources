@@ -1,4 +1,4 @@
-<!-- 
+<!--
   Compatibility Changes for Hotel needs
 
   You are free to include this snippet in your mod, as long as you don't change any values.
@@ -9,7 +9,7 @@
 
   Limit all Hotel needs to vanilla hotel only.
   Mods have to add themselves to the `RequiredBuildings` list.
-  
+
   <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item/RequiredBuildings[Item/Region='Moderate']">
     <Item>
       <RequiredBuilding>my-guid</RequiredBuilding>
@@ -18,26 +18,10 @@
   </ModOp>
 -->
 <ModOps>
-  <ModOp Type="addNextSibling" GUID="601379">
-    <Asset>
-      <Template>fallback</Template>
-      <Values>
-        <Standard>
-          <GUID>1500010999</GUID>
-        </Standard>
-        <PopulationLevel7>
-          <PopulationInputs>
-            <Item>
-              <RequiredBuildings />
-            </Item>
-          </PopulationInputs>
-        </PopulationLevel7>
-      </Values>
-    </Asset>
-  </ModOp>
-
   <!-- # OW Needs -->
-  <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[not(RequiredBuildings)] | //Values[Standard/GUID='1500010999']/PopulationLevel7/PopulationInputs/Item">
+  <ModOp Type="add" GUID="601379"
+    Condition="~/Values/PopulationLevel7/PopulationInputs/Item[not(RequiredBuildings)]"
+    Path="/Values/PopulationLevel7/PopulationInputs/Item[not(RequiredBuildings)]">
     <RequiredBuildings>
       <Item>
         <RequiredBuilding>601445</RequiredBuilding>
@@ -47,7 +31,9 @@
   </ModOp>
 
   <!-- # NW Tourism Needs -->
-  <ModOp Type="addNextSibling" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs[not(Item/Product='1440134405')]/Item[Product='133573'] | //Values[Standard/GUID='1500010999']/PopulationLevel7/PopulationInputs/Item[last()]">
+  <ModOp Type="addNextSibling" GUID="601379"
+    Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134405']"
+    Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='133573']">
     <Item>
       <Product>1440134405</Product> <!-- NW Tourism Boxing -->
       <SupplyWeight>25</SupplyWeight>
@@ -62,7 +48,9 @@
       </RequiredBuildings>
     </Item>
   </ModOp>
-  <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs[not(Item/Product='1440134406')] | //Values[Standard/GUID='1500010999']/PopulationLevel7/PopulationInputs">
+  <ModOp Type="add" GUID="601379"
+    Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134406']"
+    Path="/Values/PopulationLevel7/PopulationInputs">
     <Item>
       <Product>1440134406</Product> <!-- NW Tourism Christo -->
       <SupplyWeight>80</SupplyWeight>
@@ -77,7 +65,9 @@
       </RequiredBuildings>
     </Item>
   </ModOp>
-  <ModOp Type="addPrevSibling" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs[not(Item/Product='1440134407')]/Item[Product='601485'] | //Values[Standard/GUID='1500010999']/PopulationLevel7/PopulationInputs/Item[last()]">
+  <ModOp Type="addPrevSibling" GUID="601379"
+    Condition="!~/Values/PopulationLevel7/PopulationInputs/Item[Product='1440134407']"
+    Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='601485']">
     <Item>
       <Product>1440134407</Product> <!-- NW Tourism Hacienda -->
       <HappinessValue>3</HappinessValue>
@@ -92,11 +82,12 @@
     </Item>
   </ModOp>
   <!-- copy needs from vanilla hotel -->
-  <ModOp Type="add" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[not(RequiredBuildings/Item/RequiredBuilding='1440134300') and (Product<1010500) and not(Product='133573') and not(Product='132761') and not(Product='133536') and not(Product='137757')]/RequiredBuildings | //Values[Standard/GUID='1500010999']/PopulationLevel7/PopulationInputs/Item/RequiredBuildings">
+  <ModOp Type="add" GUID="601379"
+    AllowNoMatch="1"
+    Path="/Values/PopulationLevel7/PopulationInputs/Item[not(RequiredBuildings/Item/RequiredBuilding='1440134300') and (Product&lt;1010500) and not(Product='133573') and not(Product='132761') and not(Product='133536') and not(Product='137757')]/RequiredBuildings">
     <Item>
       <RequiredBuilding>1440134300</RequiredBuilding>
       <Region>Colony01</Region>
     </Item>
   </ModOp>
-  <ModOp Type="remove" GUID="1500010999" />
 </ModOps>
