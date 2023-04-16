@@ -1,0 +1,168 @@
+<!-- 
+  Product: Suits
+
+  You are free to include this product in your mod, as long as you don't change any values.
+  Copy the file as is and use `<Include File='./products/suits/assets.include.xml' />`.
+
+  Original from: https://github.com/jakobharder/anno-1800-jakobs-mods
+  You can request changes there as well.
+-->
+<ModOps>
+  <!-- # Product: Suits -->
+    <Group Condition="!//Values[Standard/GUID='1500010127']">
+      <ModOp GUID="1010206" Type="addNextSibling">
+        <Asset>
+          <Template>Product</Template>
+          <Values>
+            <Standard>
+              <GUID>1500010127</GUID>
+              <Name>suits</Name>
+              <IconFilename>products\suits\icon_suits.png</IconFilename>
+            </Standard>
+            <Locked />
+            <Product>
+              <StorageLevel>Building</StorageLevel>
+              <ProductCategory>11704</ProductCategory>
+              <BasePrice>480</BasePrice>
+              <CivLevel>3</CivLevel>
+              <AssociatedRegion>Moderate</AssociatedRegion>
+              <ProductionRegions>
+                <Item>
+                  <RegionType>Moderate</RegionType>
+                </Item>
+              </ProductionRegions>
+            </Product>
+            <ExpeditionAttribute>
+              <BaseMorale>6</BaseMorale>
+              <ExpeditionAttributes>
+                <Item>
+                  <Attribute>Diplomacy</Attribute>
+                  <Amount>15</Amount>
+                </Item>
+              </ExpeditionAttributes>
+              <FluffText>129492</FluffText>
+            </ExpeditionAttribute>
+          </Values>
+        </Asset>
+        <Asset>
+          <Template>FactoryBuilding7</Template>
+          <Values>
+            <Standard>
+              <GUID>1500011151</GUID>
+              <Name>IsMainfactory_Fake: Suits</Name>
+              <IconFilename>products\suits\icon_suits.png</IconFilename>
+            </Standard>
+            <Building>
+              <BuildModeRandomRotation>180</BuildModeRandomRotation>
+              <AssociatedRegions>Moderate</AssociatedRegions>
+              <SecondPartyRelevant>0</SecondPartyRelevant>
+            </Building>
+            <Object>
+              <Variations>
+                <Item>
+                  <Filename>data/dlc06/graphics/buildings/production/production_colony02_31/production_colony02_31.cfg</Filename>
+                </Item>
+              </Variations>
+            </Object>
+            <Locked>
+              <DefaultLockedState>0</DefaultLockedState>
+            </Locked>
+            <FactoryBase>
+              <FactoryInputs>
+                <Item>
+                  <Product>114391</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>6</StorageAmount>
+                </Item>
+                <Item>
+                  <Product>1010197</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>6</StorageAmount>
+                </Item>
+              </FactoryInputs>
+              <FactoryOutputs>
+                <Item>
+                  <Product>1500010127</Product>
+                  <Amount>1</Amount>
+                  <StorageAmount>4</StorageAmount>
+                </Item>
+              </FactoryOutputs>
+              <CycleTime>30</CycleTime>
+              <IsMainFactory>1</IsMainFactory>
+            </FactoryBase>
+            <Maintenance>
+              <Maintenances>
+                <Item>
+                  <Product>1010116</Product>
+                  <Amount>600</Amount>
+                </Item>
+              </Maintenances>
+            </Maintenance>
+          </Values>
+        </Asset>
+      </ModOp>
+    </Group> 
+
+  <!-- # Storage lists -->
+    <!-- StandardProductList,StandardMarketplaceModerateStorageList: after fur coats -->
+      <Group Condition="!//Values[Standard/GUID='120057']/ProductStorageList/ProductList/Item[Product='1500010127']">   
+        <ModOp Type="addNextSibling" GUID="120055" Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+          <Item>
+            <Product>1500010127</Product>
+          </Item>
+        </ModOp>
+      </Group>
+
+      <Group Condition="!//Values[Standard/GUID='120057']/ProductStorageList/ProductList/Item[Product='1500010127']">   
+        <ModOp Type="addNextSibling" GUID="120057" Path="/Values/ProductStorageList/ProductList/Item[Product='1010247']">
+          <Item>
+            <Product>1500010127</Product>
+          </Item>
+        </ModOp>
+      </Group>      
+
+    <!-- consumer: after fur coats / artisan -->
+      <Group Condition="!//Values[Standard/GUID='501997']/ProductList/List/Item[Product='1500010127']">  
+        <ModOp Type="addNextSibling" GUID="501997" Path="/Values/ProductList/List/Item[Product='1010247']">
+          <Item>
+            <Product>1500010127</Product>
+          </Item>
+        </ModOp>
+      </Group>
+
+      <Group Condition="!//Values[Standard/GUID='501997']/ProductList/List/Item[Product='1500010127']">  
+        <ModOp Type="addNextSibling" GUID="502019" Path="/Values/ProductList/List/Item[Product='1010247']">
+          <Item>
+            <Product>1500010127</Product>
+          </Item>
+        </ModOp>
+      </Group>
+
+      <Group Condition="!//Values[Standard/GUID='502006']/ProductList/List/Item[Product='1500010127']">  
+        <ModOp Type="addNextSibling" GUID="502006" Path="/Values/ProductList/List/Item[Product='1010247']">
+          <Item>
+            <Product>1500010127</Product>
+          </Item>
+        </ModOp>
+      </Group>
+
+  <!-- # Docklands (ordered, unique) -->
+    <Group Condition="!//Trades[Item/Good='1500010127']">   
+      <ModOp Type="addNextSibling" GUID="131764" Path="/Values/TradeContractFeature/Traders/Item[TraderName='131765']/TradeLevels/Item/Trades/Item[Good='1010247']">
+        <!-- chanteuse -->
+        <Item>
+          <Level>Uncommon</Level>
+          <Good>1500010127</Good>
+        </Item>
+      </ModOp>
+
+      <!-- chanteuse List -->
+      <ModOp Type="add" GUID="502235" Path="/Values/ProductList/List">
+        <Item>
+          <Product>1500010127</Product>
+        </Item>
+      </ModOp>        
+    </Group> 
+
+
+</ModOps>
