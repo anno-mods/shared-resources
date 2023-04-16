@@ -1,6 +1,7 @@
 {
   "Version": "1.1",
-  "ModID": "jakob_shared_base",
+  "ModID": "shared-pools-and-definitions",
+  "DepecrateIds": [ "jakob_shared_base" ],
   "Category": {
     "English": "Shared"
   },

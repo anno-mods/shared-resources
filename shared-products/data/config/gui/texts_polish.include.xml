@@ -5,10 +5,6 @@
       <Text>Ser</Text>
     </Text>
     <Text>
-      <GUID>1500010106</GUID>
-      <Text>Mydło oliwkowe</Text>
-    </Text>
-    <Text>
       <GUID>1500010120</GUID>
       <Text>Konserwy rybne</Text>
     </Text>
@@ -18,19 +14,19 @@
     </Text>
     <Text>
       <GUID>1500010153</GUID>
-      <Text>[AssetData(984) Text]</Text>
-    </Text>
-    <Text>
-      <GUID>1500010831</GUID>
-      <Text>Pickled Vegetables</Text> <!-- product -->
+      <Text>Narzędzia</Text>
     </Text>
     <Text>
       <GUID>1500010836</GUID>
-      <Text>Vegetables</Text> <!-- product -->
+      <Text>Warzywa</Text>
     </Text>
     <Text>
       <GUID>1500010847</GUID>
-      <Text>Tea</Text> <!-- product -->
+      <Text>Herbata</Text>
+    </Text>
+    <Text>
+      <GUID>1500010105</GUID>
+      <Text>Olives</Text>
     </Text>
   </ModOp>
 </ModOps>

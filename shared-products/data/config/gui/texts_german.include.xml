@@ -5,10 +5,6 @@
       <Text>Käse</Text>
     </Text>
     <Text>
-      <GUID>1500010106</GUID>
-      <Text>Olivenseife</Text>
-    </Text>
-    <Text>
       <GUID>1500010120</GUID>
       <Text>Dosenfisch</Text>
     </Text>
@@ -18,19 +14,19 @@
     </Text>
     <Text>
       <GUID>1500010153</GUID>
-      <Text>[AssetData(984) Text]</Text>
-    </Text>
-    <Text>
-      <GUID>1500010831</GUID>
-      <Text>Eingelegtes Gemüse</Text>
+      <Text>Werkzeug</Text>
     </Text>
     <Text>
       <GUID>1500010836</GUID>
-      <Text>Gemüse</Text> <!-- product -->
+      <Text>Gemüse</Text>
     </Text>
     <Text>
       <GUID>1500010847</GUID>
-      <Text>Tee</Text> <!-- product -->
+      <Text>Tee</Text>
+    </Text>
+    <Text>
+      <GUID>1500010105</GUID>
+      <Text>Oliven</Text>
     </Text>
   </ModOp>
 </ModOps>
