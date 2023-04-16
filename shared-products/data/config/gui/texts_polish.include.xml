@@ -2,94 +2,31 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1500010102</GUID>
-      <Text>Ser</Text> <!-- product -->
-    </Text>
-    <Text>
-      <GUID>1500010106</GUID>
-      <Text>Mydło oliwkowe</Text> <!-- product -->
+      <Text>Ser</Text>
     </Text>
     <Text>
       <GUID>1500010120</GUID>
-      <Text>Konserwy rybne</Text> <!-- product -->
+      <Text>Konserwy rybne</Text>
     </Text>
     <Text>
       <GUID>1500010127</GUID>
-      <Text>Garnitury</Text> <!-- product -->
+      <Text>Garnitury</Text>
     </Text>
     <Text>
       <GUID>1500010153</GUID>
-      <Text>Narzędzia</Text> <!-- product -->
-    </Text>
-    <Text>
-      <GUID>1500010831</GUID>
-      <Text>Kiszone warzywa</Text> <!-- product -->
+      <Text>Narzędzia</Text>
     </Text>
     <Text>
       <GUID>1500010836</GUID>
-      <Text>Warzywa</Text> <!-- product -->
+      <Text>Warzywa</Text>
     </Text>
     <Text>
       <GUID>1500010847</GUID>
-      <Text>Herbata</Text> <!-- product -->
-    </Text>
-    <Text>
-      <!-- TODO translation -->
-      <GUID>1500010825</GUID>
-      <Text>Ropes</Text>
-    </Text>    
-    <Text>
-      <GUID>1500300000</GUID>
-      <Text>Barrels</Text>
-    </Text>  
-    <Text>
-      <GUID>1404420030</GUID>
-      <Text>Cherries</Text>
-    </Text>
-    <Text>
-      <GUID>1500300040</GUID>
-      <Text>Liqueur</Text>
+      <Text>Herbata</Text>
     </Text>
     <Text>
       <GUID>1500010105</GUID>
       <Text>Olives</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300060</GUID>
-      <Text>Sandwiches</Text>
-    </Text>     
-    <Text>
-      <GUID>1500300020</GUID>
-      <Text>Smoked Fish</Text>
     </Text>
-		<Text>
-			<!-- TODO translation -->
-			<GUID>1500301073</GUID>
-			<Text>Coloured Tiles</Text>
-		</Text> 
-    <Text>
-      <!-- TODO translation -->
-      <GUID>1404420032</GUID>
-      <Text>Apples</Text>
-    </Text>     
-    <Text>
-      <!-- TODO translation -->
-      <GUID>1404422300</GUID>
-      <Text>Cattle</Text>
-    </Text>
-		<Text>
-			<!-- TODO translation -->
-			<GUID>1500020010</GUID>
-			<Text>Sewing Thread</Text>
-		</Text>  
-		<Text>
-			<!-- TODO translation -->
-			<GUID>1500010150</GUID>
-			<Text>Wooden Jewelry</Text>
-		</Text> 
-		<Text>
-			<!-- TODO translation -->
-			<GUID>1500020000</GUID>
-			<Text>Wool Fabric</Text>
-		</Text>              
   </ModOp>
 </ModOps>

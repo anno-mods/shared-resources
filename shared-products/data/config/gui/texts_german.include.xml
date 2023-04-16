@@ -2,88 +2,31 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1500010102</GUID>
-      <Text>Käse</Text> <!-- product -->
-    </Text>
-    <Text>
-      <GUID>1500010106</GUID>
-      <Text>Olivenseife</Text> <!-- product -->
+      <Text>Käse</Text>
     </Text>
     <Text>
       <GUID>1500010120</GUID>
-      <Text>Dosenfisch</Text> <!-- product -->
+      <Text>Dosenfisch</Text>
     </Text>
     <Text>
       <GUID>1500010127</GUID>
-      <Text>Anzüge</Text> <!-- product -->
+      <Text>Anzüge</Text>
     </Text>
     <Text>
       <GUID>1500010153</GUID>
-      <Text>Werkzeug</Text> <!-- product -->
-    </Text>
-    <Text>
-      <GUID>1500010831</GUID>
-      <Text>Eingelegtes Gemüse</Text> <!-- product -->
+      <Text>Werkzeug</Text>
     </Text>
     <Text>
       <GUID>1500010836</GUID>
-      <Text>Gemüse</Text> <!-- product -->
+      <Text>Gemüse</Text>
     </Text>
     <Text>
       <GUID>1500010847</GUID>
-      <Text>Tee</Text> <!-- product -->
-    </Text>
-    <Text>
-      <!-- TODO translation -->
-      <GUID>1500010825</GUID>
-      <Text>Seile</Text>
-    </Text>    
-    <Text>
-      <GUID>1500300000</GUID>
-      <Text>Fässer</Text>
-    </Text>  
-    <Text>
-      <GUID>1404420030</GUID>
-      <Text>Kirschen</Text>
-    </Text>
-    <Text>
-      <GUID>1500300040</GUID>
-      <Text>Likör</Text>
+      <Text>Tee</Text>
     </Text>
     <Text>
       <GUID>1500010105</GUID>
       <Text>Oliven</Text>
-    </Text>  
-    <Text>
-      <GUID>1500300060</GUID>
-      <Text>Sandwiches</Text>
-    </Text>     
-    <Text>
-      <GUID>1500300020</GUID>
-      <Text>Räucherfisch</Text>
     </Text>
-		<Text>
-			<GUID>1500301073</GUID>
-			<Text>Bunte Fliesen</Text>
-		</Text> 
-    <Text>
-      <GUID>1404420032</GUID>
-      <Text>Äpfel</Text>
-    </Text>     
-    <Text>
-      <GUID>1404422300</GUID>
-      <Text>Rinder</Text>
-    </Text>
-		<Text>
-			<GUID>1500020010</GUID>
-			<Text>Nähgarn</Text>
-		</Text>  
-		<Text>
-			<GUID>1500010150</GUID>
-			<Text>Holzschmuck</Text>
-		</Text> 
-		<Text>
-			<GUID>1500020000</GUID>
-			<Text>Wollstoff</Text>
-		</Text>              
   </ModOp>
 </ModOps>
