@@ -37,11 +37,19 @@ Add a `bundle` to you `modinfo.json` and use the `F1`/right-click action `Build 
 
 - Industry: Concrete/stone pavement for industries.
 
-## Shared Products - products/
+## Shared Products
 
-Contains products with definition, icon and Docklands information.
+`[Shared] Products (Jakob)`
 
-To be reworked.
+Contains products with definition, icon and Docklands information:
+- Canned Fish
+- Cheese
+- Hemp
+- Olives
+- Suits
+- Tea
+- Tools
+- Vegetables
 
 ## Shared Textures - textures/
 
