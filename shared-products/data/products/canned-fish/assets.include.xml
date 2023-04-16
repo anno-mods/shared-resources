@@ -1,6 +1,6 @@
 <ModOps>
   <!-- # Product: Canned Fish -->
-  <ModOp GUID="1010217" Type="addNextSibling">
+  <ModOp Type="addNextSibling" GUID="1010217">
     <Asset>
       <Template>Product</Template>
       <Values>
@@ -59,8 +59,8 @@
 
   <!-- # Docklands: Feedl -->
   <Group Condition="!//TradeLevels/Item/Trades[Item/Good='1500010120']">
-    <ModOp GUID="1010217" Type="addNextSibling"
-      Condition="!//FactoryOutputs[Item/Product='1500010120']">
+    <ModOp Type="addNextSibling" GUID="1010217"
+      Condition="!//FactoryBase[FactoryOutputs/Item/Product='1500010120']/IsMainFactory[text()='1']">
       <Asset>
         <Template>FactoryBuilding7</Template>
         <Values>
