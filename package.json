@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "anno-modding-tools": "https://github.com/anno-mods/vscode-anno-modding-tools/releases/download/v1.12.2/anno-modding-tools-1.12.2.tgz"
+  },
+  "scripts": {
+    "build": "node node_modules/anno-modding-tools/out/buildmod.js **/modinfo.json",
+    "package": "node .github/package.js"
+  }
+}
