@@ -34,11 +34,11 @@
     </Text>
     <Text>
       <GUID>1500200671</GUID>
-      <Text>All Beer Breweries</Text> <!-- 1010292 --><!-- 25064 -->
+      <Text>All Beer Breweries</Text> <!-- 1010292 -->
     </Text>   
     <Text>
       <GUID>1500200672</GUID>
-      <Text>All Schnapps Distilleries</Text> <!-- 1010294 --><!-- 25350 -->
+      <Text>All Schnapps Distilleries</Text> <!-- 1010294 -->
     </Text>
     <Text>
       <GUID>1500200673</GUID>
@@ -62,27 +62,27 @@
     </Text>
     <Text>
       <GUID>1500200678</GUID>
-      <Text>All Flour Mills</Text> <!-- 1010313 --><!-- 114459 -->
+      <Text>All Flour Mills</Text> <!-- 1010313 -->
     </Text>
     <Text>
       <GUID>1500200679</GUID>
-      <Text>All Rum Distilleries</Text> <!-- 1010340 --><!-- 24801 --><!-- 124737 -->
+      <Text>All Rum Distilleries</Text> <!-- 1010340 -->
     </Text>
     <Text>
       <GUID>1500200680</GUID>
-      <Text>All Coffee Roasters</Text> <!-- 101252 --><!-- 124738 -->
+      <Text>All Coffee Roasters</Text> <!-- 101252 -->
     </Text> 
     <Text>
       <GUID>1500200682</GUID>
-      <Text>All Furnaces</Text> <!-- 1010297 --><!-- 6080 -->
+      <Text>All Furnaces</Text> <!-- 1010297 -->
     </Text> 
     <Text>
       <GUID>1500200685</GUID>
-      <Text>All Sea Mine Factories</Text> <!-- 934 --><!-- 907 -->
+      <Text>All Sea Mine Factories</Text> <!-- 934 -->
     </Text> 
     <Text>
       <GUID>1500200686</GUID>
-      <Text>All Bomb Factories</Text> <!-- 924 --><!-- 906 -->
+      <Text>All Bomb Factories</Text> <!-- 924 -->
     </Text> 
     <Text>
       <GUID>1500200688</GUID>
@@ -90,7 +90,7 @@
     </Text>    
     <Text>
       <GUID>1500300910</GUID>
-      <Text>All Oil Powerplants</Text> <!-- 100780 --><!-- 5164 -->
+      <Text>All Oil Powerplants</Text> <!-- 100780 -->
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
@@ -106,7 +106,7 @@
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
-      <Text>All Marquetry Workshops</Text> <!-- 1010320 --><!-- 101296 -->
+      <Text>All Marquetry Workshops</Text> <!-- 1010320 -->
     </Text>     
   </ModOp>
 </ModOps>
