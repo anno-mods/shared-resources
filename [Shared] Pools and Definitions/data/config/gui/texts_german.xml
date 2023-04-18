@@ -34,11 +34,11 @@
     </Text>
     <Text>
       <GUID>1500200671</GUID>
-      <Text>Alle Bierbrauereien</Text> <!-- 1010292 --><!-- 25064 -->
+      <Text>Alle Bierbrauereien</Text> <!-- 1010292 -->
     </Text>   
     <Text>
       <GUID>1500200672</GUID>
-      <Text>Alle Schnapsbrennereien</Text> <!-- 1010294 --><!-- 25350 -->
+      <Text>Alle Schnapsbrennereien</Text> <!-- 1010294 -->
     </Text>
     <Text>
       <GUID>1500200673</GUID>
@@ -62,27 +62,27 @@
     </Text>
     <Text>
       <GUID>1500200678</GUID>
-      <Text>Alle Getreidemühlen</Text> <!-- 1010313 --><!-- 114459 -->
+      <Text>Alle Getreidemühlen</Text> <!-- 1010313 -->
     </Text>
     <Text>
       <GUID>1500200679</GUID>
-      <Text>Alle Rumbrennereien</Text> <!-- 1010340 --><!-- 24801 --><!-- 124737 -->
+      <Text>Alle Rumbrennereien</Text> <!-- 1010340 -->
     </Text>
     <Text>
       <GUID>1500200680</GUID>
-      <Text>Alle Kaffeeröstereien</Text> <!-- 101252 --><!-- 124738 -->
+      <Text>Alle Kaffeeröstereien</Text> <!-- 101252 -->
     </Text> 
     <Text>
       <GUID>1500200682</GUID>
-      <Text>Alle Hochöfen</Text> <!-- 1010297 --><!-- 6080 -->
+      <Text>Alle Hochöfen</Text> <!-- 1010297 -->
     </Text> 
     <Text>
       <GUID>1500200685</GUID>
-      <Text>Alle Seeminenfabriken</Text> <!-- 934 --><!-- 907 -->
+      <Text>Alle Seeminenfabriken</Text> <!-- 934 -->
     </Text> 
     <Text>
       <GUID>1500200686</GUID>
-      <Text>Alle Bombenfabriken</Text> <!-- 924 --><!-- 906 -->
+      <Text>Alle Bombenfabriken</Text> <!-- 924 -->
     </Text> 
     <Text>
       <GUID>1500200688</GUID>
@@ -90,7 +90,7 @@
     </Text>    
     <Text>
       <GUID>1500300910</GUID>
-      <Text>Alle Öl-Kraftwerke</Text> <!-- 100780 --><!-- 5164 -->
+      <Text>Alle Öl-Kraftwerke</Text> <!-- 100780 -->
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
@@ -106,7 +106,7 @@
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
-      <Text>Alle Kunstschreinereien</Text> <!-- 1010320 --><!-- 101296 -->
+      <Text>Alle Kunstschreinereien</Text> <!-- 1010320 -->
     </Text>     
   </ModOp>
 </ModOps>
