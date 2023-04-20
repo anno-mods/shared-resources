@@ -1,0 +1,18 @@
+{
+  "Version": "1.1",
+  "ModID": "shared-products-extented-jakob",
+  "Category": {
+    "English": "Shared"
+  },
+  "ModName": {
+    "English": "Products (Jakob)"
+  },
+  "CreatorName": [ 
+    "Jakob",
+    "Kurila"
+   ],
+  "CreatorContact": [ 
+    "https://github.com/jakobharder/anno-1800-jakobs-mods",
+    "https://discord.gg/YTQGDFK"
+   ] 
+}
