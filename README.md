@@ -66,8 +66,8 @@ Icon | GUID | Name | Product Unlock
 Icon | GUID | Name | Product Unlock
 ---|---|---|---
 <img src="./shared-products-extended/data/products/barrels/icon_barrels.png" width="16" /> | 1500300000 | Barrels | Artisans
-<img src="./shared-products/data/products/cattle/icon_cattle.png" width="16" /> | 1404422300 | Cattle | Artisans
-<img src="./shared-products/data/products/cherries/icon_cherries.png" width="16" /> | 1404420030 | Cherries | Tourists
+<img src="./shared-products-extended/data/products/cattle/icon_cattle.png" width="16" /> | 1404422300 | Cattle | Artisans
+<img src="./shared-products-extended/data/products/cherries/icon_cherries.png" width="16" /> | 1404420030 | Cherries | Tourists
 <img src="./doc/icon_cloth_16.png" width="16" /> | 1500020000 | Wool Fabric | Farmer / Jornaleros 
 <img src="./doc/icon_wool_16.png" width="16" /> | 1500020010 | Sewing Thread | Farmer / Jornaleros 
 
