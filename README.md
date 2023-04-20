@@ -41,15 +41,24 @@ Add a `bundle` to you `modinfo.json` and use the `F1`/right-click action `Build 
 
 `[Shared] Products (Jakob)`, ModID: `shared-products-jakob`
 
-Contains products with definition, icon and Docklands information:
-- Canned Fish
-- Cheese
-- Hemp
-- Olives
-- Suits
-- Tea
-- Tools
-- Vegetables
+
+Icon | GUID | Name | Product Unlock
+---|---|---|---
+<img src="./shared/products/vegetables/icon_vegetables.png" width="16" /> | 1500010836 | Vegetables | Workers
+<img src="./doc/icon_fish_16.png" width="16" /> | 1500010120 | Canned Fish | Artisans
+<img src="./doc/icon_cheese_16.png" width="16" /> | 1500010102 | Cheese | Artisans
+<img src="./doc/icon_tools_16.png" width="16" /> | 1500010153 | Tools | Artisans
+<img src="./doc/icon_hemp_16.png" width="16" /> | 1440224 | Hemp | Artisans
+<img src="./shared/products/suits/icon_suits.png" width="16" /> | 1500010127 | Suits | Artisans
+<img src="./shared/products/tea/icon_tea.png" width="16" /> | 1500010847 | Tea | Engineers
+<img src="./shared/products/apples/icon_apples.png" width="16" /> | 1404420032 | Apples | Farmer
+<img src="" width="16" /> | 1500010150 | Wooden Jewelry | Farmer
+<img src="./shared/products/coloured-tiles/icon_tiles.png" width="16" /> | 1500301073 | Coloured Tiles | Obrero
+<img src="./shared/products/liqueur/icon_liqueur.png" width="16" /> | 1500300040 | Liqueur | Engineers
+<img src="./shared/products/sandwiches/icon_sandwich.png" width="16" /> | 1500300060 | Sandwiches | Engineers
+<img src="./shared/products/smoked-fish/icon_smoked_fish.png" width="16" /> | 1500300020 | Smoked Fish | Engineers
+
+
 
 ## Shared Textures - textures/
 
