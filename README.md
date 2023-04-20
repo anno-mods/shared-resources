@@ -44,20 +44,32 @@ Add a `bundle` to you `modinfo.json` and use the `F1`/right-click action `Build 
 
 Icon | GUID | Name | Product Unlock
 ---|---|---|---
-<img src="./shared/products/vegetables/icon_vegetables.png" width="16" /> | 1500010836 | Vegetables | Workers
+<img src="./shared-products/data/products/vegetables/icon_vegetables.png" width="16" /> | 1500010836 | Vegetables | Workers
 <img src="./doc/icon_fish_16.png" width="16" /> | 1500010120 | Canned Fish | Artisans
 <img src="./doc/icon_cheese_16.png" width="16" /> | 1500010102 | Cheese | Artisans
 <img src="./doc/icon_tools_16.png" width="16" /> | 1500010153 | Tools | Artisans
 <img src="./doc/icon_hemp_16.png" width="16" /> | 1440224 | Hemp | Artisans
-<img src="./shared/products/suits/icon_suits.png" width="16" /> | 1500010127 | Suits | Artisans
-<img src="./shared/products/tea/icon_tea.png" width="16" /> | 1500010847 | Tea | Engineers
-<img src="./shared/products/apples/icon_apples.png" width="16" /> | 1404420032 | Apples | Farmer
-<img src="" width="16" /> | 1500010150 | Wooden Jewelry | Farmer
-<img src="./shared/products/coloured-tiles/icon_tiles.png" width="16" /> | 1500301073 | Coloured Tiles | Obrero
-<img src="./shared/products/liqueur/icon_liqueur.png" width="16" /> | 1500300040 | Liqueur | Engineers
-<img src="./shared/products/sandwiches/icon_sandwich.png" width="16" /> | 1500300060 | Sandwiches | Engineers
-<img src="./shared/products/smoked-fish/icon_smoked_fish.png" width="16" /> | 1500300020 | Smoked Fish | Engineers
+<img src="./shared-products/data//products/suits/icon_suits.png" width="16" /> | 1500010127 | Suits | Artisans
+<img src="./shared-products/data//products/tea/icon_tea.png" width="16" /> | 1500010847 | Tea | Engineers
+<img src="./shared-products/data//products/apples/icon_apples.png" width="16" /> | 1404420032 | Apples | Farmer
+<img src="./doc/icon_wooden_ring_16.png" width="16" /> | 1500010150 | Wooden Jewelry | Farmer
+<img src="./shared-products/data//products/coloured-tiles/icon_tiles.png" width="16" /> | 1500301073 | Coloured Tiles | Obrero
+<img src="./shared-products/data//products/liqueur/icon_liqueur.png" width="16" /> | 1500300040 | Liqueur | Engineers
+<img src="./shared-products/data//products/sandwiches/icon_sandwich.png" width="16" /> | 1500300060 | Sandwiches | Engineers
+<img src="./shared-products/data//products/smoked-fish/icon_smoked_fish.png" width="16" /> | 1500300020 | Smoked Fish | Engineers
 
+## Shared Products Extended
+
+`[Shared] Products Extended (Jakob)`, ModID: `shared-products-extended-jakob`
+
+
+Icon | GUID | Name | Product Unlock
+---|---|---|---
+<img src="./shared-products-extended/data/products/barrels/icon_barrels.png" width="16" /> | 1500300000 | Barrels | Artisans
+<img src="./shared-products/data/products/cattle/icon_cattle.png" width="16" /> | 1404422300 | Cattle | Artisans
+<img src="./shared-products/data/products/cherries/icon_cherries.png" width="16" /> | 1404420030 | Cherries | Tourists
+<img src="./doc/icon_cloth_16.png" width="16" /> | 1500020000 | Wool Fabric | Farmer / Jornaleros 
+<img src="./doc/icon_wool_16.png" width="16" /> | 1500020010 | Sewing Thread | Farmer / Jornaleros 
 
 
 ## Shared Textures - textures/
