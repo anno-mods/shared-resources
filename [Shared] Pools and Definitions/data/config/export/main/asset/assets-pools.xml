@@ -609,12 +609,11 @@
       </Asset>
     </ModOp>
     <!-- replace target GUIDs -->
-    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='934']"><!-- Sea Mine Factory OW -->    
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='11404']"><!-- All arms producing Multifactories -->
       <Item>
         <GUID>1500200685</GUID>
       </Item>
     </ModOp>
-    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='907']"></ModOp><!-- Sea Mine Factory NW  -->
   </Group>
 
   <!-- # All Bomb Factories -->
@@ -640,13 +639,12 @@
         </Values>
       </Asset>
     </ModOp>
-    <!-- replace target GUIDs -->
-    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='924']"><!-- Bomb Factory OW -->    
+    <!-- add target GUIDs -->
+    <ModOp Type="add" Path="//ItemEffect/EffectTargets[Item/GUID='1500200685']">
       <Item>
         <GUID>1500200686</GUID>
       </Item>
     </ModOp>
-    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='906']"></ModOp><!-- Bomb Factory NW  -->
   </Group>
 
   <!-- # All Spectacle Factories -->
@@ -899,4 +897,32 @@
       </Asset>
     </ModOp> 
   </Group>
+  
+  <!-- # All Cable Factories -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="190886">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300076</GUID>
+            <Name>all cable factories</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>6279</GUID>
+              </Item>            
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='6279']"><!-- Cable Factory -->    
+      <Item>
+        <GUID>1500300076</GUID>
+      </Item>
+    </ModOp>     
+  </Group>  
 </ModOps>

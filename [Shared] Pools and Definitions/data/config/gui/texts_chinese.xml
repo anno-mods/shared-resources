@@ -107,6 +107,11 @@
     <Text>
       <GUID>1500300914</GUID>
       <Text>All Marquetry Workshops</Text> <!-- 1010320 -->
-    </Text>     
+    </Text>  
+    <Text>
+      <!-- TODO translation -->
+      <GUID>1500300076</GUID>
+      <Text>All Cable Factories</Text> <!-- 6279 -->
+    </Text>       
   </ModOp>
 </ModOps>

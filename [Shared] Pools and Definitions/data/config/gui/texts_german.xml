@@ -107,6 +107,10 @@
     <Text>
       <GUID>1500300914</GUID>
       <Text>Alle Kunstschreinereien</Text> <!-- 1010320 -->
-    </Text>     
+    </Text>   
+    <Text>
+      <GUID>1500300076</GUID>
+      <Text>Alle Kabelfabriken</Text> <!-- 6279 -->
+    </Text>          
   </ModOp>
 </ModOps>
