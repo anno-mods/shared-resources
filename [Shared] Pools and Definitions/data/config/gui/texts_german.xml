@@ -2,7 +2,7 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1500010714</GUID>
-      <Text>Alle Quarzgrube</Text> <!-- 1010560 -->
+      <Text>Alle Quarzgruben</Text> <!-- 1010560 -->
     </Text>
     <Text>
       <GUID>1500010715</GUID>
