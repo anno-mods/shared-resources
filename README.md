@@ -12,6 +12,7 @@ Please open issues or create PRs in their respective repositories instead.
 - `[Shared] Pools and Definitions`, ModID: `shared-pools-and-definitions`
   - Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
   - Hotel needs for compatibility with New World Tourism
+- Mod Ornaments Tab: [muggenstuermer/MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
 
 ### Products and Productions
 
