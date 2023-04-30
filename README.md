@@ -16,12 +16,14 @@ Please open issues or create PRs in their respective repositories instead.
 ### Products and Productions
 
 - Extra Goods: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
+  - Vegetables, Cheese, Tools, Hemp, Suits, Canned Fish, ...
 - Paper Mill OW: [lion053/AnnoMods](https://github.com/lion053/AnnoMods)
 
 ### Textures and Assets
 
 - Shared Objects: [muggenstuermer/Shared_Objects_MU](https://github.com/muggenstuermer/Shared_Objects_MU)
-- Ground Textures: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
+  - Ground decals, fonts
+- Ground Textures/Decals: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
 
 
 ## How to use
