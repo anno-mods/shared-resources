@@ -1,9 +1,9 @@
 # Shared Mod Resources
 
-Important: Do not include modified versions of shared resources in your mod.
-You will break other mods by that.
+Important: Only include as is, do not modify shared resources in your mod.
+You will break other mods by that otherwise.
 
-Propose changes here instead.
+Open issues or create PRs here instead.
 
 ## How to use
 
@@ -17,7 +17,7 @@ Add a `bundle` to you `modinfo.json` and use the `F1`/right-click action `Build 
 
 ```json
 "bundle": [
-  "https://github.com/anno-mods/shared-resources/releases/download/v3/shared-pools-and-definitions.zip"
+  "https://github.com/anno-mods/shared-resources/releases/download/v4/shared-pools-and-definitions.zip"
 ],
 ```
 
@@ -27,29 +27,6 @@ Add a `bundle` to you `modinfo.json` and use the `F1`/right-click action `Build 
 
 - Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
 - Hotel needs for compatibility with New World Tourism
-
-## Ground Textures
-
-`[Shared] Ground Textures City (Jakob)`, ModID: `shared-ground-textures-city-jakob`
-- City: Engineer/Investor like pavements.
-
-`[Shared] Ground Textures Industry (Jakob)`, ModID: `shared-ground-textures-industry-jakob`
-
-- Industry: Concrete/stone pavement for industries.
-
-## Shared Products
-
-`[Shared] Products (Jakob)`, ModID: `shared-products-jakob`
-
-Contains products with definition, icon and Docklands information:
-- Canned Fish
-- Cheese
-- Hemp
-- Olives
-- Suits
-- Tea
-- Tools
-- Vegetables
 
 ## Shared Textures - textures/
 
