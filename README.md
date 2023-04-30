@@ -1,41 +1,64 @@
 # Shared Mod Resources
 
-Important: Only include as is, do not modify shared resources in your mod.
-You will break other mods by that otherwise.
+⚠ Important: Only include as is, do not modify shared resources in your mod.
+You risk breaking other mods otherwise.
 
-Open issues or create PRs here instead.
+Please open issues or create PRs in their respective repositories instead.
+
+## Mods
+
+### Pools and Definitions
+
+- `[Shared] Pools and Definitions`, ModID: `shared-pools-and-definitions`
+  - Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
+  - Hotel needs for compatibility with New World Tourism
+
+### Products and Productions
+
+- Extra Goods: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
+- Paper Mill OW: [lion053/AnnoMods](https://github.com/lion053/AnnoMods)
+
+### Textures and Assets
+
+- Shared Objects: [muggenstuermer/Shared_Objects_MU](https://github.com/muggenstuermer/Shared_Objects_MU)
+- Ground Textures: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
+
 
 ## How to use
 
 ### Manual
 
-Download a release, extract the mod you want into your own mod.
+Download a release, extract the mod you want into your own mod and add a the following dependency infos to your `modinfo.json`.
+
+```json
+"ModDependencies": [
+  "shared-pools-and-definitions"
+],
+"LoadAfterIds": [
+  "shared-pools-and-definitions"
+]
+```
 
 ### Automatic
 
-Add a `bundle` to you `modinfo.json` and use the `F1`/right-click action `Build and Deploy Mod` of the [Anno Modding Tools](https://marketplace.visualstudio.com/items?itemName=JakobHarder.anno-modding-tools) extension in [VS Code](https://code.visualstudio.com/).
+Add a the following dependency infos to your `modinfo.json` and use the `F1`/right-click action `Build and Deploy Mod` of the [Anno Modding Tools](https://marketplace.visualstudio.com/items?itemName=JakobHarder.anno-modding-tools) extension in [VS Code](https://code.visualstudio.com/).
 
 ```json
-"bundle": [
-  "https://github.com/anno-mods/shared-resources/releases/download/v4/shared-pools-and-definitions.zip"
+"ModDependencies": [
+  "https://github.com/anno-mods/shared-resources/releases/download/v5/shared-pools-and-definitions.zip"
 ],
+"LoadAfterIds": [
+  "shared-pools-and-definitions"
+]
 ```
 
-## Pools and Definitions
+## Contribution Guide
 
-`[Shared] Pools and Definitions`, ModID: `shared-pools-and-definitions`
+Shared mods in this repository may be by many others. Strict rules are needed to not harm them:
 
-- Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
-- Hotel needs for compatibility with New World Tourism
+- No modifications that change vanilla gameplay.
+- Modifications that will be seen by all players (e.g. pools) have to include all translations.
+- Size should be kept as small as possible. Shared mods will be repeated in every Mod that is using it.
+- No modloader warnings.
 
-## Shared Textures - textures/
-
-Contains shared textures.
-
-To be reworked.
-
-## How to build yourself
-
-The mods are made with the [Anno Modding Tools](https://marketplace.visualstudio.com/items?itemName=JakobHarder.anno-modding-tools) extension for [VS Code](https://code.visualstudio.com/).
-
-Install the plugin, open the mod folder and press `F1` and choose `Build and Deploy Mod`.
+If your shared mod follows different rules, is very big or only useful for a few then simply linking it in the above mods section may be the better choice.
