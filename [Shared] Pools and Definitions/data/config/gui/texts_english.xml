@@ -34,7 +34,7 @@
     </Text>
     <Text>
       <GUID>1500200671</GUID>
-      <Text>All Beer Breweries</Text> <!-- 1010292 -->
+      <Text>All Breweries</Text> <!-- 1010292 -->
     </Text>   
     <Text>
       <GUID>1500200672</GUID>
@@ -111,6 +111,10 @@
     <Text>
       <GUID>1500300076</GUID>
       <Text>All Cable Factories</Text> <!-- 6279 -->
-    </Text>       
+    </Text>   
+    <Text>
+      <GUID>1999002378</GUID>
+      <Text>All Clay Collectors</Text> <!-- 117743 -->
+    </Text>           
   </ModOp>
 </ModOps>

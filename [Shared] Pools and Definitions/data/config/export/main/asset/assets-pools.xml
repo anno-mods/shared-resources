@@ -249,7 +249,7 @@
       Path="//ItemEffect/EffectTargets/Item[GUID='6083']" />
   </Group>
 
-  <!-- # All Beer Breweries -->
+  <!-- # All Breweries -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -257,7 +257,7 @@
         <Values>
           <Standard>
             <GUID>1500200671</GUID>
-            <Name>all beer breweries</Name>
+            <Name>all breweries</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -925,4 +925,32 @@
       </Item>
     </ModOp>     
   </Group>  
+
+  <!-- # All Clay Collectors -->
+  <Group Condition="!//Values[Standard/GUID='1999002378']">
+    <ModOp Type="addNextSibling" GUID="190886">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002378</GUID>
+            <Name>all clay collectors</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>117743</GUID>
+              </Item>            
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='117743']"><!-- Clay Collector -->    
+      <Item>
+        <GUID>1999002378</GUID>
+      </Item>
+    </ModOp>   
+  </Group>    
 </ModOps>

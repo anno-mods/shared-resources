@@ -94,7 +94,7 @@
     </Text>     
     <Text>
       <GUID>1500300911</GUID>
-      <Text>すべての[AssetData(191592) Text]</Text> <!-- 191592 -->
+      <Text>すべての竪穴</Text> <!-- 191592 -->
     </Text>
     <Text>
       <GUID>1500300912</GUID>
@@ -111,6 +111,10 @@
     <Text>
       <GUID>1500300076</GUID>
       <Text>すべての[AssetData(6279) Text]</Text> <!-- 6279 -->
-    </Text>       
+    </Text>   
+    <Text>
+      <GUID>1999002378</GUID>
+      <Text>すべての[AssetData(117743) Text]</Text> <!-- 117743 -->
+    </Text>            
   </ModOp>
 </ModOps>
