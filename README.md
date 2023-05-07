@@ -20,6 +20,11 @@ Please open issues or create PRs in their respective repositories instead.
   - Vegetables, Cheese, Tools, Hemp, Suits, Canned Fish, ...
 - Paper Mill OW: [lion053/AnnoMods](https://github.com/lion053/AnnoMods)
 
+- Additional Products: [Qurila/anno1800-shared-products](https://github.com/Qurila/anno1800-shared-products)
+  - Apples, Smoked Fish, Liqueur, Sandwiches, Wooden Jewelry, ...
+- Additional Intermediate Products: [Qurila/anno1800-shared-products](https://github.com/Qurila/anno1800-shared-extended-products)
+  - Cattle, Cherries, Barrels, Wool Fabric, Sewing Thread, ...  
+
 ### Textures and Assets
 
 - Shared Objects: [muggenstuermer/Shared_Objects_MU](https://github.com/muggenstuermer/Shared_Objects_MU)
