@@ -19,7 +19,6 @@ Please open issues or create PRs in their respective repositories instead.
 - Extra Goods: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
   - Vegetables, Cheese, Tools, Hemp, Suits, Canned Fish, ...
 - Paper Mill OW: [lion053/AnnoMods](https://github.com/lion053/AnnoMods)
-
 - Additional Products: [Qurila/anno1800-shared-products](https://github.com/Qurila/anno1800-shared-products)
   - Apples, Smoked Fish, Liqueur, Sandwiches, Wooden Jewelry, ...
 - Additional Intermediate Products: [Qurila/anno1800-shared-products](https://github.com/Qurila/anno1800-shared-extended-products)
