@@ -23,7 +23,7 @@ Please open issues or create PRs in their respective repositories instead.
   - Apples, Smoked Fish, Liqueur, Sandwiches, Wooden Jewelry, ...
 - Additional Intermediate Products: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Cattle, Cherries, Barrels, Wool Fabric, Sewing Thread, ...  
-- Vegetables Integration: [Qurila/-shared-mods](https://github.com/Qurila/shared-mods)
+- Vegetables Integration: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Replaces peppers with vegetables
 ### Textures and Assets
 
