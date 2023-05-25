@@ -25,6 +25,7 @@ Please open issues or create PRs in their respective repositories instead.
   - Cattle, Cherries, Barrels, Wool Fabric, Sewing Thread, ...  
 - Vegetables Integration: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Replaces peppers with vegetables
+  
 ### Textures and Assets
 
 - Shared Objects: [muggenstuermer/Shared_Objects_MU](https://github.com/muggenstuermer/Shared_Objects_MU)
