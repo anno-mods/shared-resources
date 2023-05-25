@@ -19,9 +19,9 @@ Please open issues or create PRs in their respective repositories instead.
 - Extra Goods: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
   - Vegetables, Cheese, Tools, Hemp, Suits, Canned Fish, ...
 - Paper Mill OW: [lion053/AnnoMods](https://github.com/lion053/AnnoMods)
-- Additional Products: [Qurila/-shared-mods](https://github.com/Qurila/shared-mods)
+- Additional Products: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Apples, Smoked Fish, Liqueur, Sandwiches, Wooden Jewelry, ...
-- Additional Intermediate Products: [Qurila/-shared-mods](https://github.com/Qurila/shared-mods)
+- Additional Intermediate Products: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Cattle, Cherries, Barrels, Wool Fabric, Sewing Thread, ...  
 - Vegetables Integration: [Qurila/-shared-mods](https://github.com/Qurila/shared-mods)
   - Replaces peppers with vegetables
@@ -33,16 +33,16 @@ Please open issues or create PRs in their respective repositories instead.
 
 ### UI Adjustments
 
-- General Modules: [Qurila/-shared-mods](https://github.com/Qurila/shared-mods)
+- General Modules: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Adaptation of UI elements of the modules  
-- General Permits: [Qurila/-shared-mods](https://github.com/Qurila/shared-mods)
+- General Permits: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Adaptation of UI elements of the permits
-- Info Description Parts: [Qurila/-shared-mods](https://github.com/Qurila/shared-mods)
+- Info Description Parts: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Building blocks for extended InfoDescrptions
 
 ### Buildings
 
-- Recipe Buildings: [Qurila/-shared-mods](https://github.com/Qurila/shared-mods)
+- Recipe Buildings: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Vanilla buildings converted into recipe buildings 
 
 ## How to use
