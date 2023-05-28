@@ -7,44 +7,37 @@ Please open issues or create PRs in their respective repositories instead.
 
 ## Mods
 
-### Pools and Definitions
+### General
 
 - `[Shared] Pools and Definitions`, ModID: `shared-pools-and-definitions`
   - Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
   - Hotel needs for compatibility with New World Tourism
 - Mod Ornaments Tab: [muggenstuermer/MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
-
-### Products and Productions
-
-- Extra Goods: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
-  - Vegetables, Cheese, Tools, Hemp, Suits, Canned Fish, ...
-- Paper Mill OW: [lion053/AnnoMods](https://github.com/lion053/AnnoMods)
-- Additional Products: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
-  - Apples, Smoked Fish, Liqueur, Sandwiches, Wooden Jewelry, ...
-- Additional Intermediate Products: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
-  - Cattle, Cherries, Barrels, Wool Fabric, Sewing Thread, ...  
-- Vegetables Integration: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
-  - Replaces peppers with vegetables
-  
-### Textures and Assets
-
-- Shared Objects: [muggenstuermer/Shared_Objects_MU](https://github.com/muggenstuermer/Shared_Objects_MU)
-  - Ground decals, fonts
-- Ground Textures/Decals: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
-
-### UI Adjustments
-
 - General Modules: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Adaptation of UI elements of the modules  
 - General Permits: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Adaptation of UI elements of the permits
 - Info Description Parts: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Building blocks for extended InfoDescrptions
+  
+### Products and Productions
 
-### Buildings
-
+- Extra Goods: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
+  - Vegetables, Cheese, Tools, Hemp, Suits, Canned Fish, ...
+- Paper Mill OW: [lion053/AnnoMods](https://github.com/lion053/AnnoMods)
+- Additional Products: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
+  - Products: Apples, Smoked Fish, Liqueur, Sandwiches, Wooden Jewelry, ...
+  - Intermediate products: Cattle, Cherries, Barrels, Wool Fabric, Sewing Thread, ...  
+- Vegetables Integration: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
+  - Replaces peppers with vegetables
 - Recipe Buildings: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Vanilla buildings converted into recipe buildings 
+  
+### Textures and Assets
+
+- Shared Objects: [muggenstuermer/Shared_Objects_MU](https://github.com/muggenstuermer/Shared_Objects_MU)
+  - Ground decals, fonts
+- Ground Textures/Decals: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
 
 ## How to use
 
