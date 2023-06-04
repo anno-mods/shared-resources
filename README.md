@@ -71,7 +71,7 @@ Add a the following dependency infos to your `modinfo.json` and use the `F1`/rig
 
 ## Contribution Guide
 
-Shared mods in this repository may be by many others. Strict rules are needed to not harm them:
+Shared mods in this repository may be used by many others. Strict rules are needed to not harm them:
 
 - No modifications that change vanilla gameplay.
 - Modifications that will be seen by all players (e.g. pools) have to include all translations.
