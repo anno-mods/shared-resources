@@ -19,6 +19,8 @@ Please open issues or create PRs in their respective repositories instead.
   - Adaptation of UI elements of the permits
 - Info Description Parts: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Building blocks for extended InfoDescrptions
+- Neutral Hacienda: [Taludas/neutral_Hacienda](https://github.com/Taludas/neutral_Hacienda)
+  - You are now able to create a Hacienda clone with a clean and neutral Interface.
   
 ### Products and Productions
 
