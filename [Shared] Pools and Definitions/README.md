@@ -60,5 +60,5 @@ Fast approach:
 
 ## Changes
 
-1.1.1: Merged gas-fired power plant into all power plants
-1.1.1: Renamed `assets-pools.xml` to `assets-pools.include.xml`
+- 6: Added pools for oil power plants, and various other productions
+- 6: Renamed `assets-pools.xml` to `assets-pools.include.xml`

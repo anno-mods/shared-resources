@@ -62,7 +62,7 @@ Add a the following dependency infos to your `modinfo.json` and use the `F1`/rig
 
 ```json
 "ModDependencies": [
-  "https://github.com/anno-mods/shared-resources/releases/download/v5/shared-pools-and-definitions.zip"
+  "https://github.com/anno-mods/shared-resources/releases/download/v6/shared-pools-and-definitions.zip"
 ],
 "LoadAfterIds": [
   "shared-pools-and-definitions"
