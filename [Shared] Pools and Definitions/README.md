@@ -57,3 +57,8 @@ Fast approach:
   </Item>
 </ModOp>
 ```
+
+## Changes
+
+1.1.1: Merged gas-fired power plant into all power plants
+1.1.1: Renamed `assets-pools.xml` to `assets-pools.include.xml`
