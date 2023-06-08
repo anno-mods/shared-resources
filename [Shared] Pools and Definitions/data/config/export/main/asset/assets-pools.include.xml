@@ -864,10 +864,7 @@
               </Item>
               <Item>
                 <GUID>6630</GUID>
-              </Item> 
-              <Item>
-                <GUID></GUID>
-              </Item>                                                                                                                            
+              </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
         </Values>
