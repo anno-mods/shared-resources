@@ -13,7 +13,7 @@ Go to [github.com/anno-mods/shared-resources](https://github.com/anno-mods/share
 
 ## How to Use
 
-Copy the `[Shared] Pools and Definitions` into your mod and add `jakob_shared_base` to your `LoadAfterIds`.
+Copy the `[Shared] Pools and Definitions` into your mod and add `shared-pools-and-definitions` to your `LoadAfterIds`.
 
 ### Pools
 
@@ -60,5 +60,7 @@ Fast approach:
 
 ## Changes
 
+- 7: Added pools for motor assembly plant and subway station
+- 7: Renamed most pool names from plural / 'all' to singular
 - 6: Added pools for oil power plants, and various other productions
 - 6: Renamed `assets-pools.xml` to `assets-pools.include.xml`
