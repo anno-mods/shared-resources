@@ -62,3 +62,5 @@ Fast approach:
 
 - 7: Added pools for motor assembly plant and subway station
 - 7: Renamed most pool names from plural / 'all' to singular
+- 6: Added pools for oil power plants, and various other productions
+- 6: Renamed `assets-pools.xml` to `assets-pools.include.xml`
