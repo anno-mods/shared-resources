@@ -2,7 +2,7 @@
   Shared effect pools.
 -->
 <ModOps>
-  <!-- # All Sand Mines -->
+  <!-- # Sand Mine -->
   <Group>
     <ModOp Type="addNextSibling" GUID="119">
       <Asset>
@@ -10,7 +10,7 @@
         <Values>
           <Standard>
             <GUID>1500010714</GUID>
-            <Name>all sand mines</Name>
+            <Name>Sand mine</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -30,7 +30,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Iron Mines -->
+  <!-- # Iron Mine -->
   <Group>
     <ModOp Type="addNextSibling" GUID="119">
       <Asset>
@@ -38,7 +38,7 @@
         <Values>
           <Standard>
             <GUID>1500010715</GUID>
-            <Name>all iron mines</Name>
+            <Name>Iron mine</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -63,7 +63,7 @@
     </ModOp> -->
   </Group>
 
-  <!-- # All Cement Mines -->
+  <!-- # Cement Mine -->
   <Group>
     <ModOp Type="addNextSibling" GUID="119">
       <Asset>
@@ -71,7 +71,7 @@
         <Values>
           <Standard>
             <GUID>1500010716</GUID>
-            <Name>all cement mines</Name>
+            <Name>Cement mine</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -98,7 +98,7 @@
     </ModOp> -->
   </Group>
 
-  <!-- # All Window Makers -->
+  <!-- # Window Maker -->
   <Group>
     <ModOp Type="addNextSibling" GUID="119">
       <Asset>
@@ -106,7 +106,7 @@
         <Values>
           <Standard>
             <GUID>1500011900</GUID>
-            <Name>all window makers</Name>
+            <Name>Window maker</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -126,7 +126,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Steelworks -->
+  <!-- # Steelwork -->
   <Group>
     <ModOp Type="addNextSibling" GUID="119">
       <Asset>
@@ -134,7 +134,7 @@
         <Values>
           <Standard>
             <GUID>1500011901</GUID>
-            <Name>all steelworks</Name>
+            <Name>Steelwork</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -154,7 +154,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Concrete Factories -->
+  <!-- # Concrete Factory -->
   <Group>
     <ModOp Type="addNextSibling" GUID="119">
       <Asset>
@@ -162,7 +162,7 @@
         <Values>
           <Standard>
             <GUID>1500011902</GUID>
-            <Name>all concrete factories</Name>
+            <Name>Concrete factory</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -182,7 +182,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Glassmakers -->
+  <!-- # Glassmaker -->
   <Group>
     <ModOp Type="addNextSibling" GUID="119">
       <Asset>
@@ -190,7 +190,7 @@
         <Values>
           <Standard>
             <GUID>1500011903</GUID>
-            <Name>all glassmakers</Name>
+            <Name>glassmaker</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -215,7 +215,7 @@
     </ModOp> -->
   </Group>
 
-  <!-- # All Sewing Machine Factories -->
+  <!-- # Sewing Machine Factory -->
   <Group>
     <!-- Also merge with NW Sewing Machine Factories -->
     <ModOp Type="addNextSibling" GUID="119">
@@ -224,7 +224,7 @@
         <Values>
           <Standard>
             <GUID>1500011904</GUID>
-            <Name>all sewing machine factories</Name>
+            <Name>Sewing machine factory</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -249,7 +249,7 @@
       Path="//ItemEffect/EffectTargets/Item[GUID='6083']" />
   </Group>
 
-  <!-- # All Breweries -->
+  <!-- # Brewery -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -257,7 +257,7 @@
         <Values>
           <Standard>
             <GUID>1500200671</GUID>
-            <Name>all breweries</Name>
+            <Name>brewery</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -281,7 +281,7 @@
     <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='25064']"></ModOp><!-- Hacienada-Bierbrauerei / Hacienda-Beerbrewery -->
   </Group> 
 
-  <!-- # All Schnapps Distilleries -->
+  <!-- # Schnapps Distillery -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -289,7 +289,7 @@
         <Values>
           <Standard>
             <GUID>1500200672</GUID>
-            <Name>all schnapps distilleries</Name>
+            <Name>Schnapps distillery</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -313,7 +313,7 @@
     <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='25350']"></ModOp><!-- Hacienda Schnapps Distillery -->
   </Group> 
 
-  <!-- # All Bakeries -->
+  <!-- # Bakery -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -321,7 +321,7 @@
         <Values>
           <Standard>
             <GUID>1500200673</GUID>
-            <Name>all bakeries</Name>
+            <Name>Bakery</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -369,7 +369,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Rendering Works -->
+  <!-- # Rendering Works -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -377,7 +377,7 @@
         <Values>
           <Standard>
             <GUID>1500200675</GUID>
-            <Name>all rendering Works</Name>
+            <Name>Rendering Works</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -397,7 +397,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Soap Factories -->
+  <!-- # Soap Factory -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -405,7 +405,7 @@
         <Values>
           <Standard>
             <GUID>1500200676</GUID>
-            <Name>all soap factories</Name>
+            <Name>Soap factory</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -425,7 +425,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Pig Farms -->
+  <!-- # Pig Farm -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -433,7 +433,7 @@
         <Values>
           <Standard>
             <GUID>1500200677</GUID>
-            <Name>all pig farms</Name>
+            <Name>Pig farm</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -485,7 +485,7 @@
     <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='114459']"></ModOp><!-- Teff Mill -->
   </Group>
 
-  <!-- # All Rum Distilleries -->
+  <!-- # Rum Distillery -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -493,7 +493,7 @@
         <Values>
           <Standard>
             <GUID>1500200679</GUID>
-            <Name>all rum distilleries</Name>
+            <Name>rum distillery</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -521,7 +521,7 @@
     <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='124737']"></ModOp><!-- Advanced Rum Distillery -->
   </Group>
 
-  <!-- # All Coffee Roasters -->
+  <!-- # Coffee Roaster -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -529,7 +529,7 @@
         <Values>
           <Standard>
             <GUID>1500200680</GUID>
-            <Name>all coffee roasters</Name>
+            <Name>coffee roaster</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -553,7 +553,7 @@
     <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='124738']"></ModOp><!-- Advanced Coffee Roaster -->
   </Group>
 
-  <!-- # All Furnaces -->
+  <!-- # Furnace -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -561,7 +561,7 @@
         <Values>
           <Standard>
             <GUID>1500200682</GUID>
-            <Name>all furnaces</Name>
+            <Name>Furnace</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -585,7 +585,7 @@
     <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='6080']"></ModOp><!-- NW Furnace -->
   </Group>
 
-  <!-- # All Sea Mine Factories -->
+  <!-- # Sea Mine Factory -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -593,7 +593,7 @@
         <Values>
           <Standard>
             <GUID>1500200685</GUID>
-            <Name>all sea mine factories</Name>
+            <Name>Sea mine factory</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -616,7 +616,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Bomb Factories -->
+  <!-- # Bomb Factory -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -624,7 +624,7 @@
         <Values>
           <Standard>
             <GUID>1500200686</GUID>
-            <Name>all bomb factories</Name>
+            <Name>Bomb factory</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -647,7 +647,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Spectacle Factories -->
+  <!-- # Spectacles Factory -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
       <Asset>
@@ -655,7 +655,7 @@
         <Values>
           <Standard>
             <GUID>1500200688</GUID>
-            <Name>all spectacle factories</Name>
+            <Name>spectacles factory</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -675,7 +675,7 @@
     </ModOp>
   </Group>
 
-  <!-- # All Charcoal Kilns -->
+  <!-- # Charcoal Kiln -->
   <Group>
     <!-- replace target GUIDs -->
     <ModOp Type="replace" GUID="190701" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010298']"><!-- Charcoal Kiln -->    
@@ -696,7 +696,7 @@
     <ModOp Type="remove" GUID="191328,191329" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010325']"></ModOp>  <!-- Fur Dealer -->                 
   </Group>  
 
-  <!-- # All Oil Powerplants  -->
+  <!-- # Oil Powerplant  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="193864">
       <Asset>
@@ -704,7 +704,7 @@
         <Values>
           <Standard>
             <GUID>1500300910</GUID>
-            <Name>all oil powerplants</Name>
+            <Name>oil powerplant</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -872,7 +872,7 @@
     </ModOp> 
   </Group>
 
-  <!-- # All Marquetry Workshops -->
+  <!-- # Marquetry Workshop -->
   <Group>
     <ModOp Type="addNextSibling" GUID="190886">
       <Asset>
@@ -880,7 +880,7 @@
         <Values>
           <Standard>
             <GUID>1500300914</GUID>
-            <Name>all marquetry workshops</Name>
+            <Name>Marquetry workshop</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -897,7 +897,7 @@
     </ModOp> 
   </Group>
   
-  <!-- # All Cable Factories -->
+  <!-- # Cable Factory -->
   <Group>
     <ModOp Type="addNextSibling" GUID="190886">
       <Asset>
@@ -905,7 +905,7 @@
         <Values>
           <Standard>
             <GUID>1500300076</GUID>
-            <Name>all cable factories</Name>
+            <Name>Cable factory</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -925,7 +925,7 @@
     </ModOp>     
   </Group>  
 
-  <!-- # All Clay Collectors -->
+  <!-- # Clay Collector -->
   <Group Condition="!//Values[Standard/GUID='1999002378']">
     <ModOp Type="addNextSibling" GUID="190886">
       <Asset>
@@ -933,7 +933,7 @@
         <Values>
           <Standard>
             <GUID>1999002378</GUID>
-            <Name>all clay collectors</Name>
+            <Name>clay collector</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -951,5 +951,58 @@
         <GUID>1999002378</GUID>
       </Item>
     </ModOp>   
-  </Group>    
+  </Group> 
+
+  <!-- # Motor Assembly Plant -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="190886">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>2100115823</GUID>
+            <Name>Motor Assembly Plant</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>5659</GUID>
+              </Item>            
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='5659']"><!-- Motor Assembly Plant -->  
+      <Item>
+        <GUID>2100115823</GUID>
+      </Item>
+    </ModOp>   
+  </Group> 
+
+  <!-- # Subway Station (potentially useful for NH) -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="190886">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>2100115287</GUID>
+            <Name>Subway Station</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs />
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- Add to Luminaries Park Culture Set Buff --> 
+    <ModOp Type="add" GUID="193404" Path="/Values/ItemEffect/EffectTargets" Condition="!/Values/ItemEffect/EffectTargets/Item[GUID='2100115287']">
+      <Item>
+        <GUID>2100115287</GUID>
+      </Item>
+    </ModOp>       
+  </Group>  
+
 </ModOps>
