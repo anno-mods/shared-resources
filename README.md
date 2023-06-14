@@ -7,13 +7,21 @@ Please open issues or create PRs in their respective repositories instead.
 
 ## Mods
 
-### Pools and Definitions
+### General
 
 - `[Shared] Pools and Definitions`, ModID: `shared-pools-and-definitions`
   - Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
   - Hotel needs for compatibility with New World Tourism
 - Mod Ornaments Tab: [muggenstuermer/MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
-
+- General Modules: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
+  - Adaptation of UI elements of the modules  
+- General Permits: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
+  - Adaptation of UI elements of the permits
+- Info Description Parts: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
+  - Building blocks for extended InfoDescrptions
+- Neutral Hacienda: [Taludas/neutral_Hacienda](https://github.com/Taludas/neutral_Hacienda)
+  - You are now able to create a Hacienda clone with a clean and neutral Interface.
+  
 ### Products and Productions
 
 - Extra Goods: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
@@ -67,7 +75,7 @@ Add a the following dependency infos to your `modinfo.json` and use the `F1`/rig
 
 ```json
 "ModDependencies": [
-  "https://github.com/anno-mods/shared-resources/releases/download/v5/shared-pools-and-definitions.zip"
+  "https://github.com/anno-mods/shared-resources/releases/download/v7.1/shared-pools-and-definitions.zip"
 ],
 "LoadAfterIds": [
   "shared-pools-and-definitions"
@@ -76,7 +84,7 @@ Add a the following dependency infos to your `modinfo.json` and use the `F1`/rig
 
 ## Contribution Guide
 
-Shared mods in this repository may be by many others. Strict rules are needed to not harm them:
+Shared mods in this repository may be used by many others. Strict rules are needed to not harm them:
 
 - No modifications that change vanilla gameplay.
 - Modifications that will be seen by all players (e.g. pools) have to include all translations.
