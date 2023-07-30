@@ -103,10 +103,21 @@
   <!-- copy needs from vanilla hotel -->
   <ModOp Type="add" GUID="601379"
     AllowNoMatch="1"
-    Path="/Values/PopulationLevel7/PopulationInputs/Item[not(RequiredBuildings/Item/RequiredBuilding='1440134300') and (Product&lt;1010500) and not(Product='133573') and not(Product='132761') and not(Product='133536') and not(Product='137757') and not(Product='1010247') and not(Product='134257')]/RequiredBuildings">
+    Path="/Values/PopulationLevel7/PopulationInputs/Item[not(RequiredBuildings/Item/RequiredBuilding='1440134300') and (Product&lt;1010500) and not(Product='133573') and not(Product='132761') and not(Product='133536') and not(Product='137757') and not(Product='1010247') and not(Product='134257') and not(Product='134781')]/RequiredBuildings">
     <Item>
       <RequiredBuilding>1440134300</RequiredBuilding>
       <Region>Colony01</Region>
     </Item>
   </ModOp>
+
+  <Group Condition="#NewWorldDocklands">
+    <ModOp Type="add" GUID="601379"
+      Condition="!/Values/PopulationLevel7/PopulationInputs/Item[Product='134781' and RequiredBuildings/Item/RequiredBuilding='1440134300']"
+      Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='134781']/RequiredBuildings">
+      <Item>
+        <RequiredBuilding>1440134300</RequiredBuilding>
+        <Region>Colony01</Region>
+      </Item>
+    </ModOp>
+  </Group>
 </ModOps>
