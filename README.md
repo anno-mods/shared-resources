@@ -12,15 +12,17 @@ Please open issues or create PRs in their respective repositories instead.
 - `[Shared] Pools and Definitions`, ModID: `shared-pools-and-definitions`
   - Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
   - Hotel needs for compatibility with New World Tourism
-- Mod Ornaments Tab: [muggenstuermer/MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
-- General Modules: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
+- **Mod Ornaments Tab:** [muggenstuermer/MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
+- **General Modules:** [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Adaptation of UI elements of the modules  
-- General Permits: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
+- **General Permits:** [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Adaptation of UI elements of the permits
-- Info Description Parts: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
+- **Info Description Parts:** [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Building blocks for extended InfoDescrptions
-- Neutral Hacienda: [Taludas/neutral_Hacienda](https://github.com/Taludas/neutral_Hacienda)
+- **Neutral Hacienda:** [Taludas/neutral_Hacienda](https://github.com/Taludas/neutral_Hacienda)
   - You are now able to create a Hacienda clone with a clean and neutral Interface.
+- **Serps Helper-mods:** [Serpens66/Anno-1800-SharedMods-for-Modders-](https://github.com/Serpens66/Anno-1800-SharedMods-for-Modders-)
+  - Helpful utility like shared mods, eg. Triggers to know who is Human/AI and which one.
   
 ### Products and Productions
 
@@ -40,6 +42,7 @@ Please open issues or create PRs in their respective repositories instead.
 - Shared Objects: [muggenstuermer/Shared_Objects_MU](https://github.com/muggenstuermer/Shared_Objects_MU)
   - Ground decals, fonts
 - Ground Textures/Decals: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
+
 
 ## How to use
 
