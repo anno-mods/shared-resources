@@ -124,5 +124,9 @@
       <GUID>2100115287</GUID>
       <Text>Estacion de metro</Text>
     </Text>          
+    <Text>
+      <GUID>1500300916</GUID>
+      <Text>Lácteos de queso</Text>
+    </Text>
   </ModOp>
 </ModOps>

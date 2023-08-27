@@ -124,5 +124,9 @@
       <GUID>2100115287</GUID>
       <Text>Stazione della metro</Text>
     </Text>          
+    <Text>
+      <GUID>1500300916</GUID>
+      <Text>Caseificio </Text>
+    </Text>
   </ModOp>
 </ModOps>

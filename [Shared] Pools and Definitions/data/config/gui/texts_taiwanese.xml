@@ -124,5 +124,9 @@
       <GUID>2100115287</GUID>
       <Text>地鐵站</Text>
     </Text>          
+    <Text>
+      <GUID>1500300916</GUID>
+      <Text>制酪厂</Text>
+    </Text>
   </ModOp>
 </ModOps>
