@@ -124,5 +124,9 @@
       <GUID>2100115287</GUID>
       <Text>Station de métro</Text>
     </Text>          
+    <Text>
+      <GUID>1500300916</GUID>
+      <Text>Laiterie à fromage</Text>
+    </Text>
   </ModOp>
 </ModOps>

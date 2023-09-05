@@ -1005,4 +1005,22 @@
     </ModOp>       
   </Group>  
 
+  <!-- # Cheese Dairy -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="190886">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500300916</GUID>
+            <Name>Cheese Dairy</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs />
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
 </ModOps>
