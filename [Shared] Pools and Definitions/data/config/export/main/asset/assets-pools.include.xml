@@ -685,6 +685,16 @@
     </ModOp>
   </Group>
 
+  <!-- # Timber Yard -->
+  <Group>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" GUID="190639,190644" Path="/Values/ItemEffect/EffectTargets/Item[GUID='101260']"><!-- Timber Yard -->
+      <Item>
+        <GUID>190778</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
   <!-- # All Framework Knitters and Fur Dealers -->
   <Group>
     <!-- replace target GUIDs -->
