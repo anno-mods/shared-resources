@@ -98,11 +98,11 @@
     </Text>
     <Text>
       <GUID>1500300912</GUID>
-      <Text>모든 클레이 소비자</Text>
+      <Text>모든 점토 사용자</Text>
     </Text>
     <Text>
       <GUID>1500300913</GUID>
-      <Text>모든 철강 소비자</Text>
+      <Text>모든 철강 사용자</Text>
     </Text>     
     <Text>
       <GUID>1500300914</GUID>
@@ -124,9 +124,5 @@
       <GUID>2100115287</GUID>
       <Text>지하철역</Text>
     </Text>          
-    <Text>
-      <GUID>1500300916</GUID>
-      <Text>치즈 공장</Text>
-    </Text>
   </ModOp>
 </ModOps>
