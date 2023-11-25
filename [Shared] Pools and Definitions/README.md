@@ -60,6 +60,8 @@ Fast approach:
 
 ## Changes
 
+- 8.2: Updated Korean translations (thanks to modpark817)
+- 8.2 Added Timber production pool
 - 8.1: Add NW Docklands need to tourists only when `NewWorldDocklands` is active
 - 8: Replace NW tourist need of fur coats with ponchos
 - 7: Added pools for motor assembly plant and subway station
