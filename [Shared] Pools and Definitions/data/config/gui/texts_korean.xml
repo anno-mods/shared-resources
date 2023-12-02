@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>모든 [AssetData(1010316) Text]</Text> <!-- 1010316 -->
+      <Text>[AssetData(1010316) Text]</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -124,5 +124,29 @@
       <GUID>2100115287</GUID>
       <Text>지하철역</Text>
     </Text>          
+    <Text>
+      <GUID>1500300916</GUID>
+      <Text>치즈 공장</Text>
+    </Text>
+    <Text>
+      <GUID>1500301937</GUID>
+      <Text>비료 생산소</Text>
+    </Text>
+    <Text>
+      <GUID>1500301938</GUID>
+      <Text>모든 대농장 숙소</Text>
+    </Text>
+    <Text>
+      <GUID>1500301940</GUID>
+      <Text>모든 제련소</Text>
+    </Text>
+    <Text>
+      <GUID>1500301941</GUID>
+      <Text>모든 무기 공장</Text>
+    </Text>
+    <Text>
+      <GUID>1500301942</GUID>
+      <Text>모든 사냥꾼 건물</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>Toutes les Boucheries</Text> <!-- 1010316 -->
+      <Text>[AssetData(1010316) Text]</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -127,6 +127,26 @@
     <Text>
       <GUID>1500300916</GUID>
       <Text>Fromagerie</Text>
+    </Text>
+    <Text>
+      <GUID>1500301937</GUID>
+      <Text>Usines d'engrais</Text>
+    </Text>
+    <Text>
+      <GUID>1500301938</GUID>
+      <Text>Tous les quartiers de l'Hacienda</Text>
+    </Text>
+    <Text>
+      <GUID>1500301940</GUID>
+      <Text>Toutes les fonderies</Text>
+    </Text>
+    <Text>
+      <GUID>1500301941</GUID>
+      <Text>Toutes les fabriques d'armes</Text>
+    </Text>
+    <Text>
+      <GUID>1500301942</GUID>
+      <Text>Toutes les cabanes de chasse</Text>
     </Text>
   </ModOp>
 </ModOps>

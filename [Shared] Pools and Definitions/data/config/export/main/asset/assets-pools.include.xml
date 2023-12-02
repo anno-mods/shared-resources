@@ -695,17 +695,6 @@
     </ModOp>
   </Group>
 
-  <!-- # All Framework Knitters and Fur Dealers -->
-  <Group>
-    <!-- replace target GUIDs -->
-    <ModOp Type="replace" GUID="191328,191329" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010315']"><!-- Framework Knitter -->    
-      <Item>
-        <GUID>192408</GUID>
-      </Item>
-    </ModOp>  
-    <ModOp Type="remove" GUID="191328,191329" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010325']"></ModOp>  <!-- Fur Dealer -->                 
-  </Group>  
-
   <!-- # Oil Powerplant  -->
   <Group>
     <ModOp Type="addNextSibling" GUID="193864">
@@ -1031,6 +1020,810 @@
         </Values>
       </Asset>
     </ModOp>
+  </Group>
+
+  <!-- # Church -->
+  <Group>
+    <ModOp Type="add" GUID="190784" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>114520</GUID>
+      </Item>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" GUID="191705,191706,191707,191741,191742,191743" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010359']"><!-- Church -->
+      <Item>
+        <GUID>190784</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" GUID="191705,191706,191707,191741,191742,191743" Path="/Values/ItemEffect/EffectTargets/Item[GUID='101258']"></ModOp>  <!-- Chapel -->
+  </Group>
+
+  <!-- # School  -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301943</GUID>
+            <Name>school</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010360</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010360</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010360']"><!-- School -->
+      <Item>
+        <GUID>1500301943</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Hunting Cabin -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010558">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301920</GUID>
+            <Name>hunting cabin</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>1010558
+                <GUID></GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010558</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010558']"><!-- Hunting Cabin -->
+      <Item>
+        <GUID>1500301920</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # All Hunting Cabins -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010558">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301942</GUID>
+            <Name>all hunting cabins</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1500301920</GUID>
+              </Item>
+              <Item>
+                <GUID>112667</GUID>
+              </Item>
+              <Item>
+                <GUID>112673</GUID>
+              </Item>
+              <Item>
+                <GUID>116034</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Potato Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010265">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301921</GUID>
+            <Name>potato farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010265</GUID>
+              </Item>
+              <Item>
+                <GUID>25019</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010265</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="191471" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>25019</GUID>
+      </Item>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010265']"><!-- Potato Farm -->
+      <Item>
+        <GUID>1500301921</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='25019']"></ModOp><!-- Hacienda Potato Farm -->
+  </Group>
+
+  <!-- # Grain Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010262">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301922</GUID>
+            <Name>grain farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010262</GUID>
+              </Item>
+              <Item>
+                <GUID>25128</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010262</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <ModOp Type="add" GUID="191471" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>25128</GUID>
+      </Item>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010262']"><!-- Grain Farm -->
+      <Item>
+        <GUID>1500301922</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='25128']"></ModOp><!-- Hacienda Grain Farm -->
+  </Group>
+
+  <!-- # Hop Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010264">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301923</GUID>
+            <Name>hop farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010264</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010264</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010264']"><!-- Hop Farm -->
+      <Item>
+        <GUID>1500301923</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Red Pepper Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="100654">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301924</GUID>
+            <Name>red pepper farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>100654</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>100654</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='100654']"><!-- Red Pepper Farm -->
+      <Item>
+        <GUID>1500301924</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Vineyard -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="100655">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301925</GUID>
+            <Name>vineyard</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>100655</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>100655</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='100655']"><!-- Vineyard -->
+      <Item>
+        <GUID>1500301925</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Plantain Plantation -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="101263">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301926</GUID>
+            <Name>plantain plantation</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>101263</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>101263</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='101263']"><!-- Plantain Plantation  -->
+      <Item>
+        <GUID>1500301926</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Corn Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="101270">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301927</GUID>
+            <Name>corn farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>101270</GUID>
+              </Item>
+              <Item>
+                <GUID>25003</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>101270</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='101270']"><!-- Corn Farm  -->
+      <Item>
+        <GUID>1500301927</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='25003']"></ModOp><!-- Hacienda Corn Farm -->
+  </Group>
+
+  <!-- # Sugar Cane Plantation -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010329">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301928</GUID>
+            <Name>sugar cane plantation</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010329</GUID>
+              </Item>
+              <Item>
+                <GUID>24798</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010329</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010329']"><!-- Sugar Cane Plantation  -->
+      <Item>
+        <GUID>1500301928</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='24798']"></ModOp><!-- Hacienda Sugar Cane Plantation -->
+  </Group>
+
+  <!-- # Cotton Plantation -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010331">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301929</GUID>
+            <Name>cotton plantation</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010331</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010331</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010331']"><!-- CottonPlantation  -->
+      <Item>
+        <GUID>1500301929</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Caoutchouc Plantation -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010333">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301930</GUID>
+            <Name>caoutchouc plantation</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010333</GUID>
+              </Item>
+              <Item>
+                <GUID>25006</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010333</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010333']"><!-- Caoutchouc Plantation  -->
+      <Item>
+        <GUID>1500301930</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='25006']"></ModOp><!-- Hacienda Caoutchouc Plantation -->
+  </Group>
+
+  <!-- # Tobacco Plantation -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010330">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301931</GUID>
+            <Name>tobacco plantation</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010330</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010330</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010330']"><!-- Tobacco Plantation  -->
+      <Item>
+        <GUID>1500301931</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Cocoa Plantation -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="1010332">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301932</GUID>
+            <Name>cocoa plantation</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010332</GUID>
+              </Item>
+              <Item>
+                <GUID>25009</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010332</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010332']"><!-- Cocoa Plantation  -->
+      <Item>
+        <GUID>1500301932</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='25009']"></ModOp><!-- Hacienda Cocoa Plantation -->
+  </Group>
+
+  <!-- # Coffee Plantation -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="101251">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301933</GUID>
+            <Name>coffee plantation</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>101251</GUID>
+              </Item>
+              <Item>
+                <GUID>25005</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>101251</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='101251']"><!-- Coffee Plantation  -->
+      <Item>
+        <GUID>1500301933</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='25005']"></ModOp><!-- Hacienda Coffee Farm -->
+  </Group>
+
+  <!-- # Herb Garden -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5463">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301934</GUID>
+            <Name>herb garden</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>5463</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>5463</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='5463']"><!-- Herb Garden -->
+      <Item>
+        <GUID>1500301934</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Orchid Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301935</GUID>
+            <Name>herb garden</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>5814</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>5814</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='5814']"><!-- Orchid Farm -->
+      <Item>
+        <GUID>1500301935</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Pearl Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301936</GUID>
+            <Name>pearl farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010339</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010339</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010339']"><!-- Pearl Farm -->
+      <Item>
+        <GUID>1500301936</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Fertiliser Works -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301937</GUID>
+            <Name>fertiliser works</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>24805</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='24805']"><!-- Fertiliser Works -->
+      <Item>
+        <GUID>1500301937</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Hacienda Residences -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301938</GUID>
+            <Name>hacienda residences</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>24792</GUID>
+              </Item>
+              <Item>
+                <GUID>24793</GUID>
+              </Item>
+              <Item>
+                <GUID>6086</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Sawmills -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301939</GUID>
+            <Name>sawmill</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>100451</GUID>
+              </Item>
+              <Item>
+                <GUID>101261</GUID>
+              </Item>
+              <Item>
+                <GUID>114704</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>100451</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Smelting Works -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301940</GUID>
+            <Name>smelting works</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1500200682</GUID>
+              </Item>
+              <Item>
+                <GUID>1010282</GUID>
+              </Item>
+              <Item>
+                <GUID>1010327</GUID>
+              </Item>
+              <Item>
+                <GUID>835</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Weapon Factories -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301941</GUID>
+            <Name>weapon factories</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010299</GUID>
+              </Item>
+              <Item>
+                <GUID>1010301</GUID>
+              </Item>
+              <Item>
+                <GUID>1500200685</GUID>
+              </Item>
+              <Item>
+                <GUID>1500200686</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010299']"><!-- Weapon Factory -->
+      <Item>
+        <GUID>1500301941</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="replace" GUID="25641,269277" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1500301941']"><!-- Weapon Factory Pool-->
+      <Item>
+        <GUID>1010299</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets[Item/GUID='1500301941']/Item[GUID='1010301' or GUID='1500200685' or GUID='1500200686']"></ModOp>
   </Group>
 
 </ModOps>

@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>Wszyscy rzeźnicy</Text> <!-- 1010316 -->
+      <Text>[AssetData(1010316) Text]</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -127,6 +127,26 @@
     <Text>
       <GUID>1500300916</GUID>
       <Text>Mleczarnia</Text>
+    </Text>
+    <Text>
+      <GUID>1500301937</GUID>
+      <Text>Zakłady Nawozowe</Text>
+    </Text>
+    <Text>
+      <GUID>1500301938</GUID>
+      <Text>Wszystkie kwatery hacjendy</Text>
+    </Text>
+    <Text>
+      <GUID>1500301940</GUID>
+      <Text>Wszystkie Odlewnie</Text>
+    </Text>
+    <Text>
+      <GUID>1500301941</GUID>
+      <Text>Wszystkie fabryki broni</Text>
+    </Text>
+    <Text>
+      <GUID>1500301942</GUID>
+      <Text>Wszystkie chaty myśliwskie</Text>
     </Text>
   </ModOp>
 </ModOps>

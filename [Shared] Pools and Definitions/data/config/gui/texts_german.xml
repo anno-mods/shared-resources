@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>Alle Metzgereien</Text> <!-- 1010316 -->
+      <Text>Metzgerei</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -127,6 +127,26 @@
     <Text>
       <GUID>1500300916</GUID>
       <Text>Käserei</Text>
+    </Text>
+    <Text>
+      <GUID>1500301937</GUID>
+      <Text>Düngerwerk</Text>
+    </Text>
+    <Text>
+      <GUID>1500301938</GUID>
+      <Text>Alle Hacienda-Unterkünfte</Text>
+    </Text>
+    <Text>
+      <GUID>1500301940</GUID>
+      <Text>Alle Schmelzhütten</Text>
+    </Text>
+    <Text>
+      <GUID>1500301941</GUID>
+      <Text>Alle Waffenfabriken</Text>
+    </Text>
+    <Text>
+      <GUID>1500301942</GUID>
+      <Text>Alle Jagdhütten</Text>
     </Text>
   </ModOp>
 </ModOps>

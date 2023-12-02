@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>Tutte le macellerie</Text> <!-- 1010316 -->
+      <Text>[AssetData(1010316) Text]</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -127,6 +127,26 @@
     <Text>
       <GUID>1500300916</GUID>
       <Text>Caseificio </Text>
+    </Text>
+    <Text>
+      <GUID>1500301937</GUID>
+      <Text>Fabbrica di fertilizzanti</Text>
+    </Text>
+    <Text>
+      <GUID>1500301938</GUID>
+      <Text>Tutti i quartieri Hacienda</Text>
+    </Text>
+    <Text>
+      <GUID>1500301940</GUID>
+      <Text>Tutti gli smelter</Text>
+    </Text>
+    <Text>
+      <GUID>1500301941</GUID>
+      <Text>Tutte le fabbriche di armi</Text>
+    </Text>
+    <Text>
+      <GUID>1500301942</GUID>
+      <Text>Tutte le cabine di caccia</Text>
     </Text>
   </ModOp>
 </ModOps>
