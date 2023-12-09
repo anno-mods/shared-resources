@@ -1826,4 +1826,14 @@
     <ModOp Type="remove" Path="//ItemEffect/EffectTargets[Item/GUID='1500301941']/Item[GUID='1010301' or GUID='1500200685' or GUID='1500200686']"></ModOp>
   </Group>
 
+  <!-- # Pup -->
+  <Group>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" GUID="116181" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010358']"><!-- Pup-->
+      <Item>
+        <GUID>190782</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
 </ModOps>
