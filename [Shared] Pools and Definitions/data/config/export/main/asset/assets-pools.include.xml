@@ -1024,11 +1024,6 @@
 
   <!-- # Church -->
   <Group>
-    <ModOp Type="add" GUID="190784" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
-      <Item>
-        <GUID>114520</GUID>
-      </Item>
-    </ModOp>
     <!-- replace target GUIDs -->
     <ModOp Type="replace" GUID="191705,191706,191707,191741,191742,191743" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010359']"><!-- Church -->
       <Item>
