@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>所有[AssetData(1010316) Text]</Text> <!-- 1010316 -->
+      <Text>[AssetData(1010316) Text]</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -127,6 +127,26 @@
     <Text>
       <GUID>1500300916</GUID>
       <Text>制酪厂</Text>
+    </Text>
+    <Text>
+      <GUID>1500301937</GUID>
+      <Text>肥料工作坊</Text>
+    </Text>
+    <Text>
+      <GUID>1500301938</GUID>
+      <Text>所有庄园宿舍</Text>
+    </Text>
+    <Text>
+      <GUID>1500301940</GUID>
+      <Text>所有冶炼厂</Text>
+    </Text>
+    <Text>
+      <GUID>1500301941</GUID>
+      <Text>所有武器工厂</Text>
+    </Text>
+    <Text>
+      <GUID>1500301942</GUID>
+      <Text>所有狩猎小屋</Text>
     </Text>
   </ModOp>
 </ModOps>

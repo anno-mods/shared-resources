@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>すべての[AssetData(1010316) Text]</Text> <!-- 1010316 -->
+      <Text>[AssetData(1010316) Text]</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -127,6 +127,26 @@
     <Text>
       <GUID>1500300916</GUID>
       <Text>乳業</Text>
+    </Text>
+    <Text>
+      <GUID>1500301937</GUID>
+      <Text>肥料工場</Text>
+    </Text>
+    <Text>
+      <GUID>1500301938</GUID>
+      <Text>すべてのハシエンダ宿舎</Text>
+    </Text>
+    <Text>
+      <GUID>1500301940</GUID>
+      <Text>全製錬所</Text>
+    </Text>
+    <Text>
+      <GUID>1500301941</GUID>
+      <Text>全武器工場</Text>
+    </Text>
+    <Text>
+      <GUID>1500301942</GUID>
+      <Text>すべてのハンティングキャビン</Text>
     </Text>
   </ModOp>
 </ModOps>

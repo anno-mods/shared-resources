@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>Все мясные лавки</Text> <!-- 1010316 -->
+      <Text>[AssetData(1010316) Text]</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -128,5 +128,26 @@
       <GUID>1500300916</GUID>
       <Text>Сыроварня</Text>
     </Text>
+    <Text>
+      <GUID>1500301937</GUID>
+      <Text>Завод по производству удобрений</Text>
+    </Text>
+    <Text>
+      <GUID>1500301938</GUID>
+      <Text>Все кварталы Гасиенды</Text>
+    </Text>
+    <Text>
+      <GUID>1500301940</GUID>
+      <Text>Все плавильные заводы</Text>
+    </Text>
+    <Text>
+      <GUID>1500301941</GUID>
+      <Text>Все оружейные заводы</Text>
+    </Text>
+    <Text>
+      <GUID>1500301942</GUID>
+      <Text>Все охотничьи домики</Text>
+    </Text>
+  </ModOp>
   </ModOp>
 </ModOps>

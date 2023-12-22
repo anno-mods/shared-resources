@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>All Slaughterhouses</Text> <!-- 1010316 -->
+      <Text>Slaughterhouses</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -127,6 +127,26 @@
     <Text>
       <GUID>1500300916</GUID>
       <Text>Cheese Dairy</Text>
+    </Text>
+    <Text>
+      <GUID>1500301937</GUID>
+      <Text>Fertiliser Works</Text>
+    </Text>
+    <Text>
+      <GUID>1500301938</GUID>
+      <Text>All Hacienda Quarters</Text>
+    </Text>
+    <Text>
+      <GUID>1500301940</GUID>
+      <Text>All Smelters</Text>
+    </Text>
+    <Text>
+      <GUID>1500301941</GUID>
+      <Text>All Weapon Factories</Text>
+    </Text>
+    <Text>
+      <GUID>1500301942</GUID>
+      <Text>All Hunting Cabins</Text>
     </Text>
   </ModOp>
 </ModOps>
