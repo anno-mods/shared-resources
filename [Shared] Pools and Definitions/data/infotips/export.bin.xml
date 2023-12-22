@@ -1,0 +1,67 @@
+<ModOps>
+
+<!-- # Adjust residence scene happiness infotip (to have the same infotip as vanilla hotels) -->
+<Group>
+  <!-- Remove Pollution from all Tourist Lodging Happiness Infotips -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501045']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object AreaManager Happiness PollutionHappiness]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>601379</ExpectedValueInt>
+      <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+  <!-- Remove WorkingConditions from all Tourist Lodging Happiness Infotips -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501045']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object Residence HappinessWorkingCondition]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator>
+        <CompareOperator>1</CompareOperator>
+      </CompareOperator>
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>601379</ExpectedValueInt>
+      <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+  <!-- Add Attractivity for all Tourist Lodging Happiness Infotips -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501045']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object Residence HappinessByAttractivity]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator />
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>601379</ExpectedValueInt>
+      <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+  <!-- Add Hotspots for all Tourist Lodging Happiness Infotips -->
+  <ModOp Type ="replace" Path ="//InfoTipData[Guid='501045']/InfoElement[InfoElement/VisibilityElement/VisibilityElement[Condition='[Selection Object Residence HappinessByHotspots]'and CompareOperator/CompareOperator='2']]/VisibilityElement/VisibilityElement">
+    <VisibilityElement>
+      <ElementType>
+        <ElementType>1</ElementType>
+      </ElementType>
+      <CompareOperator />
+      <ResultType>
+        <ResultType>1</ResultType>
+      </ResultType>
+      <ExpectedValueInt>601379</ExpectedValueInt>
+      <Condition>[Selection Object Residence PopulationLevel Guid]</Condition>
+    </VisibilityElement>
+  </ModOp>
+</Group>
+
+</ModOps>
