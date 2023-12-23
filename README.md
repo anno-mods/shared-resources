@@ -88,10 +88,19 @@ If your shared mod follows different rules, is very big or only useful for a few
 Make sure to update the version in `modinfo.json`!
 
 All you need to do is tag it with `v*` and a draft release will be created for you.
-Use the following steps if you want to tag via browser.
+
+You can do that via browser:
 
 - Go to `Releases` and click `Draft a new release`.
 - Enter the new version (e.g. `v8.3` under `Choose a tag`).
 - Check `Set as a pre-release` to avoid the release being immediately public
 - Wait until GitHub creates the assets and adds them
 - Publish the draft release created by GitHub
+
+Or via console:
+
+```
+git tag v8.3
+git push --tags
+```
+
