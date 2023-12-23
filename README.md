@@ -87,7 +87,7 @@ If your shared mod follows different rules, is very big or only useful for a few
 
 Make sure to update the version in `modinfo.json`!
 
-All you need to do is tag it with `v*` and a draft release will be created for you.
+All you need to do is to create a tag with the version and a `v` in front (e.g. `v8.3`). A draft release will be created for you.
 
 You can do that via browser:
 
