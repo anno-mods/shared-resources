@@ -1076,8 +1076,8 @@
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
-              <Item>1010558
-                <GUID></GUID>
+              <Item>
+                <GUID>1010558</GUID>
               </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
