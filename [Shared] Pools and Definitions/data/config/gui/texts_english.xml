@@ -148,5 +148,13 @@
       <GUID>1500301942</GUID>
       <Text>All Hunting Cabins</Text>
     </Text>
+    <Text>
+      <GUID>1500301944</GUID>
+      <Text>All Arctic Hunting Cabins</Text>
+    </Text>
+    <Text>
+      <GUID>191042</GUID>
+      <Text>All Drilling Rigs</Text>
+    </Text>
   </ModOp>
 </ModOps>

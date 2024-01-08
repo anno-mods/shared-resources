@@ -35,7 +35,7 @@
     <Text>
       <GUID>1500200671</GUID>
       <Text>[AssetData(1010292) Text]</Text> <!-- 1010292 -->
-    </Text>   
+    </Text>
     <Text>
       <GUID>1500200672</GUID>
       <Text>[AssetData(1010294) Text]</Text> <!-- 1010294 -->
@@ -108,7 +108,7 @@
       <GUID>1500300914</GUID>
       <Text>[AssetData(1010320) Text]</Text> <!-- 1010320 -->
     </Text>  
-    <Text>      
+    <Text>
       <GUID>1500300076</GUID>
       <Text>[AssetData(6279) Text]</Text> <!-- 6279 -->
     </Text>   
@@ -116,11 +116,11 @@
       <GUID>1999002378</GUID>
       <Text>[AssetData(117743) Text]</Text> <!-- 117743 -->
     </Text> 
-    <Text>      
+    <Text>
       <GUID>2100115823</GUID>
       <Text>[AssetData(5659) Text]</Text> <!-- 5659 -->
     </Text>   
-    <Text>      
+    <Text>
       <GUID>2100115287</GUID>
       <Text>Stacja metra</Text>
     </Text>          
@@ -147,6 +147,14 @@
     <Text>
       <GUID>1500301942</GUID>
       <Text>Wszystkie chaty myśliwskie</Text>
+    </Text>
+    <Text>
+      <GUID>1500301944</GUID>
+      <Text>Wszystkie Arktyczne Chaty Myśliwskie</Text>
+    </Text>
+    <Text>
+      <GUID>191042</GUID>
+      <Text>Wszystkie Platformy Wiertnicze</Text>
     </Text>
   </ModOp>
 </ModOps>
