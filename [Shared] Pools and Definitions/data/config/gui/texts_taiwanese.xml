@@ -147,7 +147,7 @@
     <Text>
       <GUID>1500301942</GUID>
       <Text>所有狩獵小屋</Text>
-  </ModOp>
+    </Text>
     <Text>
       <GUID>1500301944</GUID>
       <Text>综合北极狩猎小屋</Text>
@@ -156,4 +156,5 @@
       <GUID>191042</GUID>
       <Text>所有钻机</Text>
     </Text>
+  </ModOp>
 </ModOps>
