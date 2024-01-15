@@ -35,7 +35,7 @@
     <Text>
       <GUID>1500200671</GUID>
       <Text>Brauerei</Text> <!-- 1010292 -->
-    </Text>   
+    </Text>
     <Text>
       <GUID>1500200672</GUID>
       <Text>Schnapsbrennerei</Text> <!-- 1010294 -->
@@ -116,11 +116,11 @@
       <GUID>1999002378</GUID>
       <Text>Lehmschöpferei</Text> <!-- 117743 -->
     </Text> 
-    <Text>      
+    <Text>
       <GUID>2100115823</GUID>
       <Text>Motorenfabrik</Text> <!-- 5659 -->
     </Text>   
-    <Text>      
+    <Text>
       <GUID>2100115287</GUID>
       <Text>U-Bahnstation</Text>
     </Text>          
@@ -147,6 +147,18 @@
     <Text>
       <GUID>1500301942</GUID>
       <Text>Alle Jagdhütten</Text>
+    </Text>
+    <Text>
+      <GUID>1500301944</GUID>
+      <Text>Alle Arktische Jagdhütten</Text>
+    </Text>
+    <Text>
+      <GUID>191042</GUID>
+      <Text>Alle Bohrtürme</Text>
+    </Text>
+    <Text>
+      <GUID>1500301945</GUID>
+      <Text>Alle Stoffwebereien</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -35,7 +35,7 @@
     <Text>
       <GUID>1500200671</GUID>
       <Text>[AssetData(1010292) Text]</Text> <!-- 1010292 -->
-    </Text>   
+    </Text>
     <Text>
       <GUID>1500200672</GUID>
       <Text>[AssetData(1010294) Text]</Text> <!-- 1010294 -->
@@ -116,11 +116,11 @@
       <GUID>1999002378</GUID>
       <Text>[AssetData(117743) Text]</Text> <!-- 117743 -->
     </Text> 
-    <Text>      
+    <Text>
       <GUID>2100115823</GUID>
       <Text>[AssetData(5659) Text]</Text> <!-- 5659 -->
     </Text>   
-    <Text>      
+    <Text>
       <GUID>2100115287</GUID>
       <Text>지하철역</Text>
     </Text>          
@@ -147,6 +147,18 @@
     <Text>
       <GUID>1500301942</GUID>
       <Text>모든 사냥꾼 건물</Text>
+    </Text>
+    <Text>
+      <GUID>1500301944</GUID>
+      <Text>모든 북극 사냥 오두막</Text>
+    </Text>
+    <Text>
+      <GUID>191042</GUID>
+      <Text>모든 시추 장비들</Text>
+    </Text>
+    <Text>
+      <GUID>1500301945</GUID>
+      <Text>모든 원단 공장</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -1107,8 +1107,8 @@
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
-              <Item>1010558
-                <GUID></GUID>
+              <Item>
+                <GUID>1010558</GUID>
               </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
@@ -1155,6 +1155,42 @@
         </Values>
       </Asset>
     </ModOp>
+  </Group>
+
+  <!-- # All Actic Hunting Cabins -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301944</GUID>
+            <Name>all arctic hunting cabins</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>112667</GUID>
+              </Item>
+              <Item>
+                <GUID>112673</GUID>
+              </Item>
+              <Item>
+                <GUID>116034</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='112667']"><!-- Caribou Hunter -->
+      <Item>
+        <GUID>1500301944</GUID>
+      </Item>
+    </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='112673']"></ModOp><!-- Bear Hunter -->
+    <ModOp Type="remove" GUID="7225" Path="/Values/ItemEffect/EffectTargets/Item[GUID='116034']"></ModOp><!-- Prime Hunting Cabin-->
   </Group>
 
   <!-- # Potato Farm -->
@@ -1711,6 +1747,11 @@
         </Values>
       </Asset>
     </ModOp>
+    <ModOp Type="add" GUID="6000018,193856,368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+      <Item>
+        <GUID>1500301937</GUID>
+      </Item>
+    </ModOp>
     <!-- replace target GUIDs -->
     <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='24805']"><!-- Fertiliser Works -->
       <Item>
@@ -1778,7 +1819,7 @@
     </ModOp>
   </Group>
 
-  <!-- # Smelting Works -->
+  <!-- # All Smelters -->
   <Group>
     <ModOp Type="addNextSibling" GUID="5814">
       <Asset>
@@ -1786,7 +1827,7 @@
         <Values>
           <Standard>
             <GUID>1500301940</GUID>
-            <Name>smelting works</Name>
+            <Name>all smelters</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -1859,6 +1900,37 @@
       <Item>
         <GUID>190782</GUID>
       </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # All Fabric Mills -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301945</GUID>
+            <Name>all fabric mills</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010318</GUID>
+              </Item>
+              <Item>
+                <GUID>124739</GUID>
+              </Item>
+              <Item>
+                <GUID>114441</GUID>
+              </Item>
+              <Item>
+                <GUID>101415</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
     </ModOp>
   </Group>
 

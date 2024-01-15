@@ -35,7 +35,7 @@
     <Text>
       <GUID>1500200671</GUID>
       <Text>[AssetData(1010292) Text]</Text> <!-- 1010292 -->
-    </Text>   
+    </Text>
     <Text>
       <GUID>1500200672</GUID>
       <Text>[AssetData(1010294) Text]</Text> <!-- 1010294 -->
@@ -116,11 +116,11 @@
       <GUID>1999002378</GUID>
       <Text>[AssetData(117743) Text]</Text> <!-- 117743 -->
     </Text> 
-    <Text>      
+    <Text>
       <GUID>2100115823</GUID>
       <Text>[AssetData(5659) Text]</Text> <!-- 5659 -->
     </Text>   
-    <Text>      
+    <Text>
       <GUID>2100115287</GUID>
       <Text>地下鉄の駅</Text>
     </Text>          
@@ -147,6 +147,18 @@
     <Text>
       <GUID>1500301942</GUID>
       <Text>すべてのハンティングキャビン</Text>
+    </Text>
+    <Text>
+      <GUID>1500301944</GUID>
+      <Text>すべての北極圏ハンティングキャビン</Text>
+    </Text>
+    <Text>
+      <GUID>191042</GUID>
+      <Text>すべての掘削リグ</Text>
+    </Text>
+    <Text>
+      <GUID>1500301945</GUID>
+      <Text>すべての織物工場</Text>
     </Text>
   </ModOp>
 </ModOps>
