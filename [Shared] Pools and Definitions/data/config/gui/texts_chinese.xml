@@ -156,5 +156,9 @@
       <GUID>191042</GUID>
       <Text>所有钻机</Text>
     </Text>
+    <Text>
+      <GUID>1500301945</GUID>
+      <Text>所有面料厂</Text>
+    </Text>
   </ModOp>
 </ModOps>

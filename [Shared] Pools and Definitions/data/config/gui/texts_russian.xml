@@ -156,5 +156,9 @@
       <GUID>191042</GUID>
       <Text>Все нефтяные скважины</Text>
     </Text>
+    <Text>
+      <GUID>1500301945</GUID>
+      <Text>Все фабрики тканей</Text>
+    </Text>
   </ModOp>
 </ModOps>

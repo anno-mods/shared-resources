@@ -152,5 +152,13 @@
       <GUID>1500301944</GUID>
       <Text>Alle Arktische Jagdhütten</Text>
     </Text>
+    <Text>
+      <GUID>191042</GUID>
+      <Text>Alle Bohrtürme</Text>
+    </Text>
+    <Text>
+      <GUID>1500301945</GUID>
+      <Text>Alle Stoffwebereien</Text>
+    </Text>
   </ModOp>
 </ModOps>

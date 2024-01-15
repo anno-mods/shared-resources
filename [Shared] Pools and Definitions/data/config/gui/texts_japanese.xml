@@ -156,5 +156,9 @@
       <GUID>191042</GUID>
       <Text>すべての掘削リグ</Text>
     </Text>
+    <Text>
+      <GUID>1500301945</GUID>
+      <Text>すべての織物工場</Text>
+    </Text>
   </ModOp>
 </ModOps>

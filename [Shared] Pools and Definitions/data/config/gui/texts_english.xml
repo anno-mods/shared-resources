@@ -156,5 +156,9 @@
       <GUID>191042</GUID>
       <Text>All Drilling Rigs</Text>
     </Text>
+    <Text>
+      <GUID>1500301945</GUID>
+      <Text>All Fabric Mills</Text>
+    </Text>
   </ModOp>
 </ModOps>
