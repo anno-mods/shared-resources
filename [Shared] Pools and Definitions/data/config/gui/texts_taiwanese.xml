@@ -160,5 +160,33 @@
       <GUID>1500301945</GUID>
       <Text>所有面料廠</Text>
     </Text>
+    <Text>
+      <GUID>1500301946</GUID>
+      <Text>所有马达工厂</Text>
+    </Text>
+    <Text>
+      <GUID>1500301947</GUID>
+      <Text>所有河流建筑物</Text>
+    </Text>
+    <Text>
+      <GUID>1500301948</GUID>
+      <Text>所有农民住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1500301949</GUID>
+      <Text>所有工人住宅</Text>
+    </Text>
+    <Text>
+      <GUID>1500301950</GUID>
+      <Text>所有艺术公寓</Text>
+    </Text>
+    <Text>
+      <GUID>1500301951</GUID>
+      <Text>所有牧羊人公寓</Text>
+    </Text>
+    <Text>
+      <GUID>1500301952</GUID>
+      <Text>所有老人公寓</Text>
+    </Text>
   </ModOp>
 </ModOps>

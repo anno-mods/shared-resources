@@ -1,5 +1,5 @@
 {
-  "Version": "8.4",
+  "Version": "8.5",
   "ModID": "shared-pools-and-definitions",
   "DepecrateIds": [ "jakob_shared_base" ],
   "Category": {

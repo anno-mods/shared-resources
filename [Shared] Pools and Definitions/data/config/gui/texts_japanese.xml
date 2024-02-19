@@ -160,5 +160,33 @@
       <GUID>1500301945</GUID>
       <Text>すべての織物工場</Text>
     </Text>
+    <Text>
+      <GUID>1500301946</GUID>
+      <Text>全エンジン工場</Text>
+    </Text>
+    <Text>
+      <GUID>1500301947</GUID>
+      <Text>オール・リバー・ビル</Text>
+    </Text>
+    <Text>
+      <GUID>1500301948</GUID>
+      <Text>全農レジデンス</Text>
+    </Text>
+    <Text>
+      <GUID>1500301949</GUID>
+      <Text>全労働者の住居</Text>
+    </Text>
+    <Text>
+      <GUID>1500301950</GUID>
+      <Text>すべてのアルティスタ・レジデンス</Text>
+    </Text>
+    <Text>
+      <GUID>1500301951</GUID>
+      <Text>すべてのシェパード・レジデンス</Text>
+    </Text>
+    <Text>
+      <GUID>1500301952</GUID>
+      <Text>すべてのエルダー・レジデンス</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -160,5 +160,33 @@
       <GUID>1500301945</GUID>
       <Text>Все фабрики тканей</Text>
     </Text>
+    <Text>
+      <GUID>1500301946</GUID>
+      <Text>Все моторные заводы</Text>
+    </Text>
+    <Text>
+      <GUID>1500301947</GUID>
+      <Text>Все речные здания</Text>
+    </Text>
+    <Text>
+      <GUID>1500301948</GUID>
+      <Text>Всё жильё крестьян</Text>
+    </Text>
+    <Text>
+      <GUID>1500301949</GUID>
+      <Text>Все жильё рабочих</Text>
+    </Text>
+    <Text>
+      <GUID>1500301950</GUID>
+      <Text>Всё жильё артиста</Text>
+    </Text>
+    <Text>
+      <GUID>1500301951</GUID>
+      <Text>Всё жильё пастухов</Text>
+    </Text>
+    <Text>
+      <GUID>1500301952</GUID>
+      <Text>Все жильё старейшин </Text>
+    </Text>
   </ModOp>
 </ModOps>

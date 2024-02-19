@@ -160,5 +160,33 @@
       <GUID>1500301945</GUID>
       <Text>모든 원단 공장</Text>
     </Text>
+    <Text>
+      <GUID>1500301946</GUID>
+      <Text>모든 모터 공장</Text>
+    </Text>
+    <Text>
+      <GUID>1500301947</GUID>
+      <Text>모든 리버 빌딩</Text>
+    </Text>
+    <Text>
+      <GUID>1500301948</GUID>
+      <Text>모든 파머 레지던스</Text>
+    </Text>
+    <Text>
+      <GUID>1500301949</GUID>
+      <Text>모든 작업자 숙소</Text>
+    </Text>
+    <Text>
+      <GUID>1500301950</GUID>
+      <Text>모든 아티스타 레지던스</Text>
+    </Text>
+    <Text>
+      <GUID>1500301951</GUID>
+      <Text>모든 셰퍼드 레지던스</Text>
+    </Text>
+    <Text>
+      <GUID>1500301952</GUID>
+      <Text>A모든 엘더 레지던스</Text>
+    </Text>
   </ModOp>
 </ModOps>
