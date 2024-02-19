@@ -160,5 +160,33 @@
       <GUID>1500301945</GUID>
       <Text>Tutte le tessiture di tessuti</Text>
     </Text>
+    <Text>
+      <GUID>1500301946</GUID>
+      <Text>Tutti gli impianti di motorizzazione</Text>
+    </Text>
+    <Text>
+      <GUID>1500301947</GUID>
+      <Text>Tutti gli edifici fluviali</Text>
+    </Text>
+    <Text>
+      <GUID>1500301948</GUID>
+      <Text>Tutte le residenze dei Contadini</Text>
+    </Text>
+    <Text>
+      <GUID>1500301949</GUID>
+      <Text>Tutte le residenze dei Lavoratori</Text>
+    </Text>
+    <Text>
+      <GUID>1500301950</GUID>
+      <Text>Tutte le residenze degli Artisti</Text>
+    </Text>
+    <Text>
+      <GUID>1500301951</GUID>
+      <Text>Tutte le residenze Shepherd</Text>
+    </Text>
+    <Text>
+      <GUID>1500301952</GUID>
+      <Text>Tutte le residenze per anziani</Text>
+    </Text>
   </ModOp>
 </ModOps>

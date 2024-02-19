@@ -160,5 +160,33 @@
       <GUID>1500301945</GUID>
       <Text>Alle Stoffwebereien</Text>
     </Text>
+    <Text>
+      <GUID>1500301946</GUID>
+      <Text>Alle Motorenwerke</Text>
+    </Text>
+    <Text>
+      <GUID>1500301947</GUID>
+      <Text>Alle Flussgebäude</Text>
+    </Text>
+    <Text>
+      <GUID>1500301948</GUID>
+      <Text>Alle Bauernhäuser</Text>
+    </Text>
+    <Text>
+      <GUID>1500301949</GUID>
+      <Text>Alle Arbeiterhäuser</Text>
+    </Text>
+    <Text>
+      <GUID>1500301950</GUID>
+      <Text>Alle Artistahäuser</Text>
+    </Text>
+    <Text>
+      <GUID>1500301951</GUID>
+      <Text>Alle Hirtenhäuser</Text>
+    </Text>
+    <Text>
+      <GUID>1500301952</GUID>
+      <Text>Alle Ältestenhäuser</Text>
+    </Text>
   </ModOp>
 </ModOps>

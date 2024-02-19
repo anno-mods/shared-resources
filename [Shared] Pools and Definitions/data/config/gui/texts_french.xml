@@ -160,5 +160,33 @@
       <GUID>1500301945</GUID>
       <Text>Toutes les usines à tissus</Text>
     </Text>
+    <Text>
+      <GUID>1500301946</GUID>
+      <Text>Toutes les usines de moteurs</Text>
+    </Text>
+    <Text>
+      <GUID>1500301947</GUID>
+      <Text>Tous les bâtiments fluviaux</Text>
+    </Text>
+    <Text>
+      <GUID>1500301948</GUID>
+      <Text>Toutes les résidences de fermier</Text>
+    </Text>
+    <Text>
+      <GUID>1500301949</GUID>
+      <Text>Toutes les résidences d'ouvrier </Text>
+    </Text>
+    <Text>
+      <GUID>1500301950</GUID>
+      <Text>Toutes les résidences d'artiste</Text>
+    </Text>
+    <Text>
+      <GUID>1500301951</GUID>
+      <Text>Toutes les résidences de berger</Text>
+    </Text>
+    <Text>
+      <GUID>1500301952</GUID>
+      <Text>Toutes les résidences d'ancien</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -46,7 +46,7 @@
     </Text>
     <Text>
       <GUID>1500200674</GUID>
-      <Text>Slaughterhouses</Text> <!-- 1010316 -->
+      <Text>Slaughterhouse</Text> <!-- 1010316 -->
     </Text>
     <Text>
       <GUID>1500200675</GUID>
@@ -159,6 +159,34 @@
     <Text>
       <GUID>1500301945</GUID>
       <Text>All Fabric Mills</Text>
+    </Text>
+    <Text>
+      <GUID>1500301946</GUID>
+      <Text>All Motor Factories</Text>
+    </Text>
+    <Text>
+      <GUID>1500301947</GUID>
+      <Text>All River Buildings</Text>
+    </Text>
+    <Text>
+      <GUID>1500301948</GUID>
+      <Text>All Farmer Residences</Text>
+    </Text>
+    <Text>
+      <GUID>1500301949</GUID>
+      <Text>All Worker Residences</Text>
+    </Text>
+    <Text>
+      <GUID>1500301950</GUID>
+      <Text>All Artista Residences</Text>
+    </Text>
+    <Text>
+      <GUID>1500301951</GUID>
+      <Text>All Shepherd Residences</Text>
+    </Text>
+    <Text>
+      <GUID>1500301952</GUID>
+      <Text>All Elder Residences</Text>
     </Text>
   </ModOp>
 </ModOps>

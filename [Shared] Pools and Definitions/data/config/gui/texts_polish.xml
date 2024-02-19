@@ -160,5 +160,33 @@
       <GUID>1500301945</GUID>
       <Text>Wszystkie fabryki tkanin'</Text>
     </Text>
+    <Text>
+      <GUID>1500301946</GUID>
+      <Text>Wszystkie fabryki silników</Text>
+    </Text>
+    <Text>
+      <GUID>1500301947</GUID>
+      <Text>Wszystkie Budynki Rzeczne</Text>
+    </Text>
+    <Text>
+      <GUID>1500301948</GUID>
+      <Text>Wszystkie rezydencje farmerów</Text>
+    </Text>
+    <Text>
+      <GUID>1500301949</GUID>
+      <Text>Wszystkie rezydencje pracowników</Text>
+    </Text>
+    <Text>
+      <GUID>1500301950</GUID>
+      <Text>Wszystkie rezydencje Artista</Text>
+    </Text>
+    <Text>
+      <GUID>1500301951</GUID>
+      <Text>Wszystkie rezydencje Shepherd</Text>
+    </Text>
+    <Text>
+      <GUID>1500301952</GUID>
+      <Text>Wszystkie rezydencje dla osób starszych</Text>
+    </Text>
   </ModOp>
 </ModOps>
