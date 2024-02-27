@@ -170,23 +170,23 @@
     </Text>
     <Text>
       <GUID>1500301948</GUID>
-      <Text>所有农民住宅</Text>
+      <Text>所有农民住所</Text>
     </Text>
     <Text>
       <GUID>1500301949</GUID>
-      <Text>所有工人住宅</Text>
+      <Text>所有工人住所</Text>
     </Text>
     <Text>
       <GUID>1500301950</GUID>
-      <Text>所有艺术公寓</Text>
+      <Text>所有工匠住所</Text>
     </Text>
     <Text>
       <GUID>1500301951</GUID>
-      <Text>所有牧羊人公寓</Text>
+      <Text>所有牧羊人住所</Text>
     </Text>
     <Text>
       <GUID>1500301952</GUID>
-      <Text>所有老人公寓</Text>
+      <Text>所有长老住所</Text>
     </Text>
   </ModOp>
 </ModOps>

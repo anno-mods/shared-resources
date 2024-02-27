@@ -1690,6 +1690,192 @@
     </ModOp>
   </Group>
 
+  <!-- # Hibiscus Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301955</GUID>
+            <Name>hibiscus farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>114447</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>114447</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='114447']"><!-- Hibiscus Farm -->
+      <Item>
+        <GUID>1500301955</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Linseed Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301956</GUID>
+            <Name>linseed farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>114448</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>114448</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='114448']"><!-- Linseed Farm -->
+      <Item>
+        <GUID>1500301956</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Teff Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301957</GUID>
+            <Name>teff farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>114450</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>114450</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='114450']"><!-- Teff Farm -->
+      <Item>
+        <GUID>1500301957</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Indigo Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301958</GUID>
+            <Name>indigo farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>114451</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>114451</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='114451']"><!-- Indigo Farm -->
+      <Item>
+        <GUID>1500301958</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Spice Farm -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301959</GUID>
+            <Name>spice farm</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>114452</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>114452</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='114452']"><!-- Spice Farm -->
+      <Item>
+        <GUID>1500301959</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Apiary -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="5814">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301020</GUID>
+            <Name>apiary</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>114453</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>114453</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='114453']"><!-- Apiary -->
+      <Item>
+        <GUID>1500301020</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
   <!-- # Pearl Farm -->
   <Group>
     <ModOp Type="addNextSibling" GUID="5814">

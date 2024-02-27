@@ -170,23 +170,23 @@
     </Text>
     <Text>
       <GUID>1500301948</GUID>
-      <Text>Wszystkie rezydencje farmerów</Text>
+      <Text>Wszystkie Domy Farmerów</Text>
     </Text>
     <Text>
       <GUID>1500301949</GUID>
-      <Text>Wszystkie rezydencje pracowników</Text>
+      <Text>Wszystkie Domy Robotników</Text>
     </Text>
     <Text>
       <GUID>1500301950</GUID>
-      <Text>Wszystkie rezydencje Artista</Text>
+      <Text>Wszystkie Domy Artystów</Text>
     </Text>
     <Text>
       <GUID>1500301951</GUID>
-      <Text>Wszystkie rezydencje Shepherd</Text>
+      <Text>Wszystkie Domy Pasterzy</Text>
     </Text>
     <Text>
       <GUID>1500301952</GUID>
-      <Text>Wszystkie rezydencje dla osób starszych</Text>
+      <Text>Wszystkie Domy Starszych</Text>
     </Text>
   </ModOp>
 </ModOps>
