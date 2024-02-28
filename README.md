@@ -23,12 +23,15 @@ Please open issues or create PRs in their respective repositories instead.
   - You are now able to create a Hacienda clone with a clean and neutral Interface.
 - **Serps Helper-mods:** [Serpens66/Anno-1800-SharedMods-for-Modders-](https://github.com/Serpens66/Anno-1800-SharedMods-for-Modders-)
   - Helpful utility like shared mods, eg. Triggers to know who is Human/AI and which one.
+- **Infotip Fix Tourist Buildings** [lion053/shared-mods](https://github.com/lion053/shared-mods)
+  - Applies vanilla tourism building infotips for all modded hotels and visitor piers. 
   
 ### Products and Productions
 
 - Extra Goods: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
   - Vegetables, Cheese, Tools, Hemp, Suits, Canned Fish, ...
-- Paper Mill OW: [lion053/AnnoMods](https://github.com/lion053/AnnoMods)
+- Milk from Cattle Farms: [lion053/shared-mods](https://github.com/lion053/shared-mods)
+  - Vanilla cattle farm pastures produce milk (Old and New World; if DLC12 is active New World is untouched)
 - Additional Products: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Products: Apples, Smoked Fish, Liqueur, Sandwiches, Wooden Jewelry, ...
   - Intermediate products: Cattle, Cherries, Barrels, Wool Fabric, Sewing Thread, ...  
