@@ -188,5 +188,17 @@
       <GUID>1500301952</GUID>
       <Text>すべてのエルダー・レジデンス</Text>
     </Text>
+    <Text>
+      <GUID>1500301024</GUID>
+      <Text>すべての飼料サイロ</Text>
+    </Text>
+    <Text>
+      <GUID>1500301025</GUID>
+      <Text>すべての肥料サイロ</Text>
+    </Text>
+    <Text>
+      <GUID>1500301026</GUID>
+      <Text>すべての鉱山モジュール</Text>
+    </Text>
   </ModOp>
 </ModOps>

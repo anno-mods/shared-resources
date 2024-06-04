@@ -188,5 +188,17 @@
       <GUID>1500301952</GUID>
       <Text>所有长老住所</Text>
     </Text>
+    <Text>
+      <GUID>1500301024</GUID>
+      <Text>所有饲料筒仓</Text>
+    </Text>
+    <Text>
+      <GUID>1500301025</GUID>
+      <Text>所有化肥筒仓</Text>
+    </Text>
+    <Text>
+      <GUID>1500301026</GUID>
+      <Text>所有矿井模块</Text>
+    </Text>
   </ModOp>
 </ModOps>

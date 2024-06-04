@@ -188,5 +188,17 @@
       <GUID>1500301952</GUID>
       <Text>All Elder Residences</Text>
     </Text>
+    <Text>
+      <GUID>1500301024</GUID>
+      <Text>All Fodder Silos</Text>
+    </Text>
+    <Text>
+      <GUID>1500301025</GUID>
+      <Text>All Fertiliser Silos</Text>
+    </Text>
+    <Text>
+      <GUID>1500301026</GUID>
+      <Text>All Mine Modules</Text>
+    </Text>
   </ModOp>
 </ModOps>

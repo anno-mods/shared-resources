@@ -188,5 +188,17 @@
       <GUID>1500301952</GUID>
       <Text>Wszystkie Domy Starszych</Text>
     </Text>
+    <Text>
+      <GUID>1500301024</GUID>
+      <Text>Wszystkie silosy paszowe</Text>
+    </Text>
+    <Text>
+      <GUID>1500301025</GUID>
+      <Text>Wszystkie silosy nawozowe</Text>
+    </Text>
+    <Text>
+      <GUID>1500301026</GUID>
+      <Text>Wszystkie moduły kopalni</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -119,7 +119,7 @@
     <Text>
       <GUID>2100115823</GUID>
       <Text>Линия сборки двигателей</Text> <!-- 5659 -->
-    </Text>
+    </Text>   
     <Text>
       <GUID>2100115287</GUID>
       <Text>Станции метро</Text>
@@ -187,6 +187,18 @@
     <Text>
       <GUID>1500301952</GUID>
       <Text>Все жильё старейшин </Text>
+    </Text>
+    <Text>
+      <GUID>1500301024</GUID>
+      <Text>Все силосы для кормов</Text>
+    </Text>
+    <Text>
+      <GUID>1500301025</GUID>
+      <Text>Все силосы для удобрений</Text>
+    </Text>
+    <Text>
+      <GUID>1500301026</GUID>
+      <Text>Все модули шахты</Text>
     </Text>
   </ModOp>
 </ModOps>

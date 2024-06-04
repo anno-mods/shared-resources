@@ -188,5 +188,17 @@
       <GUID>1500301952</GUID>
       <Text>Alle Ältestenhäuser</Text>
     </Text>
+    <Text>
+      <GUID>1500301024</GUID>
+      <Text>Alle Futtersilos</Text>
+    </Text>
+    <Text>
+      <GUID>1500301025</GUID>
+      <Text>Alle Düngersilos</Text>
+    </Text>
+    <Text>
+      <GUID>1500301026</GUID>
+      <Text>Alle Minen Module</Text>
+    </Text>
   </ModOp>
 </ModOps>
