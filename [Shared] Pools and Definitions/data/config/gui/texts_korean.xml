@@ -188,5 +188,17 @@
       <GUID>1500301952</GUID>
       <Text>A모든 엘더 레지던스</Text>
     </Text>
+    <Text>
+      <GUID>1500301024</GUID>
+      <Text>모든 사료 사일로</Text>
+    </Text>
+    <Text>
+      <GUID>1500301025</GUID>
+      <Text>모든 비료 사일로</Text>
+    </Text>
+    <Text>
+      <GUID>1500301026</GUID>
+      <Text>모든 광산 모듈</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -188,5 +188,17 @@
       <GUID>1500301952</GUID>
       <Text>Tutte le residenze per anziani</Text>
     </Text>
+    <Text>
+      <GUID>1500301024</GUID>
+      <Text>Tutti i silos per foraggi</Text>
+    </Text>
+    <Text>
+      <GUID>1500301025</GUID>
+      <Text>Tutti i silos per fertilizzanti</Text>
+    </Text>
+    <Text>
+      <GUID>1500301026</GUID>
+      <Text>Tutti i moduli della miniera</Text>
+    </Text>
   </ModOp>
 </ModOps>
