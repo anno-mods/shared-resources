@@ -465,6 +465,30 @@
     </ModOp>
   </Group>
 
+  <!-- # Wat-Kitchen -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="194011">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301027</GUID>
+            <Name>Wat-Kitchen</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>114471</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>114471</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+
   <!-- # All Slaughterhouses -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
