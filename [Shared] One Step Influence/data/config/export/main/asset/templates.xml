@@ -1,0 +1,5 @@
+<ModOps>
+  <ModOp Type="merge" Path="//Cost[InfluenceCostType='Townhall' or InfluenceCostType='GuildHouse' or InfluenceCostType='HarborOffice']">
+    <InfluenceCostPoints>20</InfluenceCostPoints>
+  </ModOp>
+</ModOps>
