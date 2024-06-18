@@ -312,6 +312,37 @@
     <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='25064']"></ModOp><!-- Hacienada-Bierbrauerei / Hacienda-Beerbrewery -->
   </Group> 
 
+  <!-- # Malthouse -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="194011">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301028</GUID>
+            <Name>Malthouse</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010314</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010314</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010314']"><!-- Malthouse -->
+      <Item>
+        <GUID>1500301028</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
   <!-- # Schnapps Distillery -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
@@ -488,6 +519,7 @@
         </Values>
       </Asset>
     </ModOp>
+  </Group>
 
   <!-- # All Slaughterhouses -->
   <Group>
