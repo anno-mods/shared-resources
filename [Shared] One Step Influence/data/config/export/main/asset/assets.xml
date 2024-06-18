@@ -1,9 +1,27 @@
 <ModOps>
-  <ModOp Type="merge" Path="//Cost[(InfluenceCostType='Townhall' or InfluenceCostType='GuildHouse' or InfluenceCostType='HarborOffice') and not(InfluenceCostPoints)]">
-    <InfluenceCostPoints>20</InfluenceCostPoints>
-  </ModOp>
-  <ModOp Type="merge" GUID="140797" Path="/Values/InfluenceFeature/InfluenceConfig/*[self::GuildHouse or self::Townhall or self::HarborOffice]">
-    <InfluenceCosts>1</InfluenceCosts>
-    <FreeAmount>20</FreeAmount>
-  </ModOp>
+  <!-- Normal and Removed -->
+  <Group Condition="!#Spice_InfluenceRabalancing">
+    <ModOp Type="merge" Path="//Cost[(InfluenceCostType='Townhall' or InfluenceCostType='GuildHouse' or InfluenceCostType='HarborOffice') and not(InfluenceCostPoints)]">
+      <InfluenceCostPoints>20</InfluenceCostPoints>
+    </ModOp>
+    <ModOp Type="merge" GUID="140797"
+      Condition="/Values/InfluenceFeature/InfluenceConfig/*[(self::GuildHouse and not(InfluenceCosts='0')) or (self::Townhall and not(InfluenceCosts='0')) or (self::HarborOffice and not(InfluenceCosts='0'))]"
+      Path="/Values/InfluenceFeature/InfluenceConfig/*[(self::GuildHouse and not(InfluenceCosts='0')) or (self::Townhall and not(InfluenceCosts='0')) or (self::HarborOffice and not(InfluenceCosts='0'))]">
+      <InfluenceCosts>1</InfluenceCosts>
+      <FreeAmount>20</FreeAmount>
+    </ModOp>
+  </Group>
+
+  <!-- Rebalanced -->
+  <Group Condition="#Spice_InfluenceRabalancing">
+    <ModOp Type="merge" Path="//Cost[(InfluenceCostType='Townhall' or InfluenceCostType='GuildHouse' or InfluenceCostType='HarborOffice') and not(InfluenceCostPoints)]">
+      <InfluenceCostPoints>15</InfluenceCostPoints>
+    </ModOp>
+    <ModOp Type="merge" GUID="140797"
+      Condition="/Values/InfluenceFeature/InfluenceConfig/*[(self::GuildHouse and not(InfluenceCosts='0')) or (self::Townhall and not(InfluenceCosts='0')) or (self::HarborOffice and not(InfluenceCosts='0'))]"
+      Path="/Values/InfluenceFeature/InfluenceConfig/*[(self::GuildHouse and not(InfluenceCosts='0')) or (self::Townhall and not(InfluenceCosts='0')) or (self::HarborOffice and not(InfluenceCosts='0'))]">
+      <InfluenceCosts>1</InfluenceCosts>
+      <FreeAmount>45</FreeAmount>
+    </ModOp>
+  </Group>
 </ModOps>
