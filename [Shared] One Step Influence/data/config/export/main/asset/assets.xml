@@ -1,0 +1,9 @@
+<ModOps>
+  <ModOp Type="merge" Path="//Cost[(InfluenceCostType='Townhall' or InfluenceCostType='GuildHouse' or InfluenceCostType='HarborOffice') and not(InfluenceCostPoints)]">
+    <InfluenceCostPoints>20</InfluenceCostPoints>
+  </ModOp>
+  <ModOp Type="merge" GUID="140797" Path="/Values/InfluenceFeature/InfluenceConfig/*[self::GuildHouse or self::Townhall or self::HarborOffice]">
+    <InfluenceCosts>1</InfluenceCosts>
+    <FreeAmount>20</FreeAmount>
+  </ModOp>
+</ModOps>
