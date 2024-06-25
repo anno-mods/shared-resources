@@ -5,13 +5,20 @@ You risk breaking other mods otherwise.
 
 Please open issues or create PRs in their respective repositories instead.
 
-## Mods
+## Shared Mods
+
+- `shared-pools-and-definitions`
+  - Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
+  - Construction menu helper
+  - Hotel needs for compatibility with New World Tourism
+  - [Full documentation](./[Shared]%20Pools%20and%20Definitions/README.md)
+- `shared-one-step-influence`
+  - Change guildhouse type influence into 20 times 1-base point instead of 1 time 20-based so that you can create e.g. 5 point buildings
+
+## Shared Mods in other Repositories
 
 ### General
 
-- `[Shared] Pools and Definitions`, ModID: `shared-pools-and-definitions`
-  - Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
-  - Hotel needs for compatibility with New World Tourism
 - **Mod Ornaments Tab:** [muggenstuermer/MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
 - **General Modules:** [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Adaptation of UI elements of the modules  
@@ -53,7 +60,7 @@ Please open issues or create PRs in their respective repositories instead.
 
 ### Manual
 
-Download a release, extract the mod you want into your own mod and add a the following dependency infos to your `modinfo.json`.
+Download a release, extract the mod you want into your own mod and add a the following dependency infos to your `modinfo.json`:
 
 ```json
 "ModDependencies": [

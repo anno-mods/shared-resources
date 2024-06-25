@@ -40,6 +40,41 @@ Fast approach:
 </ModOp>
 ```
 
+### Insert into Progression Menus by Unlock
+
+Inserting into construction menus at the right spot while ensuring no other mods break your entry is quite cumbersome.
+
+`shared-pools-and-definitions` allows you to insert using population progress instead of GUIDs.
+
+Snippet:
+
+```xml
+<ModOp Type="addNextSibling" GUID="25000190"
+  Path="/Values/ConstructionCategory/BuildingList/Item[Worker&lt;=400][last()]">
+  <Item>
+    <Building>1500010111</Building>
+    <Worker>400</Worker>
+  </Item>
+</ModOp>
+```
+
+Result:
+
+![](./../doc/menu-result.png)
+
+#### Menu Unlock Guide
+
+- Always add your own unlock condition
+- If there's no unlock in this region, use the consumer unlock instead. E.g. Rum has no unlock in the OW, but consumption starts at 500 Artisans
+- For production chains: use the tab of the highest workforce in the chain
+- For construction categories: use the tab of the lowest workforce/consumer in the chain
+- Include previous population if you add an entry to a lower tier, e.g. add `Farmer` if you want to add an `Worker` unlocked chain into the Farmers tab.
+
+Currently available populations are:
+- OW: `Farmer`, `Worker`, `Artisan`, `Engineer`
+
+Feel free to contribute other populations as well.
+
 ### Hotel Needs
 
 ```xml
