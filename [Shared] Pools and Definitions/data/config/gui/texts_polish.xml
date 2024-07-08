@@ -200,5 +200,9 @@
       <GUID>1500301026</GUID>
       <Text>Wszystkie moduły kopalni</Text>
     </Text>
+    <Text>
+      <GUID>1500301029</GUID>
+      <Text>Wszystkie kopalnie arktyczne</Text>
+    </Text>
   </ModOp>
 </ModOps>

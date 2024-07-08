@@ -200,5 +200,9 @@
       <GUID>1500301026</GUID>
       <Text>Tutti i moduli della miniera</Text>
     </Text>
+    <Text>
+      <GUID>1500301029</GUID>
+      <Text>Tutte le miniere dell'Artico</Text>
+    </Text>
   </ModOp>
 </ModOps>

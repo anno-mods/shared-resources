@@ -200,5 +200,9 @@
       <GUID>1500301026</GUID>
       <Text>Все модули шахты</Text>
     </Text>
+    <Text>
+      <GUID>1500301029</GUID>
+      <Text>Все арктические шахты</Text>
+    </Text>
   </ModOp>
 </ModOps>

@@ -200,5 +200,9 @@
       <GUID>1500301026</GUID>
       <Text>すべての鉱山モジュール</Text>
     </Text>
+    <Text>
+      <GUID>1500301029</GUID>
+      <Text>すべての北極鉱山</Text>
+    </Text>
   </ModOp>
 </ModOps>
