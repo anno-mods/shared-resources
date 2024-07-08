@@ -200,5 +200,9 @@
       <GUID>1500301026</GUID>
       <Text>Todos los módulos de minas</Text>
     </Text>
+    <Text>
+      <GUID>1500301029</GUID>
+      <Text>Todas las minas del Ártico</Text>
+    </Text>
   </ModOp>
 </ModOps>

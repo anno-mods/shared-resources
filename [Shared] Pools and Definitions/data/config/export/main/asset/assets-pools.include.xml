@@ -2580,4 +2580,41 @@
     </ModOp>
   </Group>
 
+  <!-- # All Arctic Mines -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="119">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301029</GUID>
+            <Name>All Arctic Mines</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>116029</GUID>
+              </Item>
+              <Item>
+                <GUID>8857200</GUID><!-- SIU Variable Mines -->
+              </Item>
+              <Item>
+                <GUID>8857203</GUID><!-- SIU Variable Mines -->
+              </Item>
+              <Item>
+                <GUID>8857204</GUID><!-- SIU Variable Mines -->
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace original target GUIDs -->
+    <ModOp Type="replace" Path="//Values/ItemEffect/EffectTargets/Item[GUID='116029']">
+      <Item>
+        <GUID>1500301029</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
 </ModOps>

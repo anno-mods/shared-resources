@@ -200,5 +200,9 @@
       <GUID>1500301026</GUID>
       <Text>所有矿井模块</Text>
     </Text>
+    <Text>
+      <GUID>1500301029</GUID>
+      <Text>所有北极矿区</Text>
+    </Text>
   </ModOp>
 </ModOps>

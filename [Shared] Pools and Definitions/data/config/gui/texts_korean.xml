@@ -200,5 +200,9 @@
       <GUID>1500301026</GUID>
       <Text>모든 광산 모듈</Text>
     </Text>
+    <Text>
+      <GUID>1500301029</GUID>
+      <Text>모든 북극 광산</Text>
+    </Text>
   </ModOp>
 </ModOps>
