@@ -93,6 +93,47 @@ Feel free to contribute other populations as well.
 </ModOp>
 ```
 
+### Construction Menu Descriptions
+
+The mod enableds you to change the words "Production Chain" in the construction chain InfoTip.
+
+![](../doc/construction-infotip.jpg)
+
+**Production Chains:**
+
+```xml
+<Asset>
+  <Template>ProductionChain</Template>
+  <Values>
+    <Standard>
+      <InfoDescription><!-- Text GUID --></InfoDescription>
+    ...
+```
+
+Changing the description of categories and buildings is possible already possible in vanilla.
+
+**Production Categories:**
+
+```xml
+<Asset>
+  <Template>ConstructionCategory</Template>
+  <Values>
+    <ConstructionCategory>
+      <CategoryDescription><!-- Text GUID --></CategoryDescription>
+    ...
+```
+
+**Buildings:**
+
+```xml
+  <Asset>
+    <Template>FactoryBuilding7</Template>
+    <Values>
+      <Building>
+        <BuildingCategoryName><!-- Text GUID --></BuildingCategoryName>
+        ...
+```
+
 ## Changes
 - 8.3: Adjust/add pools (Kurila)
 - 8.2: Updated Korean translations (thanks to modpark817)
