@@ -204,5 +204,9 @@
       <GUID>1500301029</GUID>
       <Text>Toutes les mines de l'Arctique</Text>
     </Text>
+    <Text>
+      <GUID>2100115704</GUID>
+      <Text>Usine de Soude</Text>
+    </Text>
   </ModOp>
 </ModOps>

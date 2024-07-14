@@ -204,5 +204,9 @@
       <GUID>1500301029</GUID>
       <Text>Wszystkie kopalnie arktyczne</Text>
     </Text>
+    <Text>
+      <GUID>2100115704</GUID>
+      <Text>Fabryka Sody</Text>
+    </Text>
   </ModOp>
 </ModOps>
