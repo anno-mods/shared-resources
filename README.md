@@ -101,7 +101,14 @@ Make sure to update the version in `modinfo.json`!
 
 All you need to do is to create a tag with the version and a `v` in front (e.g. `v8.3`). A draft release will be created for you.
 
-You can do that via browser:
+#### Version scheme
+
+`vMAJOR.minor.path`
+- `MAJOR`: increase when there's a new mod, or a **new feature** in pools-and-definition.
+- `minor`: increase when there are new pools, or other additions to **existing features**.
+- `patch`: increase when fixing **bugs**, translations
+
+#### You can do that via browser
 
 - Go to `Releases` and click `Draft a new release`.
 - Enter the new version (e.g. `v8.3` under `Choose a tag`).
@@ -109,7 +116,7 @@ You can do that via browser:
 - Publish and wait until GitHub creates the assets and adds them
 - Publish the draft release created by GitHub
 
-Or via console:
+#### Or via console
 
 ```
 git tag v8.3
