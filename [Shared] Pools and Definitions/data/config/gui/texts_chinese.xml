@@ -204,5 +204,9 @@
       <GUID>1500301029</GUID>
       <Text>所有北极矿区</Text>
     </Text>
+    <Text>
+      <GUID>2100115704</GUID>
+      <Text>汽水厂</Text>
+    </Text>
   </ModOp>
 </ModOps>
