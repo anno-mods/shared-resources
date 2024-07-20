@@ -2573,6 +2573,9 @@
         <GUID>190782</GUID>
       </Item>
     </ModOp>
+    <ModOp Type="merge" GUID="190782" Path="/Values/Text">
+      <TextOverride>1010358</TextOverride>
+    </ModOp>
   </Group>
 
   <!-- # Church -->
@@ -2582,6 +2585,9 @@
       <Item>
         <GUID>190784</GUID>
       </Item>
+    </ModOp>
+    <ModOp Type="merge" GUID="190784" Path="/Values/Text">
+      <TextOverride>1010359</TextOverride>
     </ModOp>
     <ModOp Type="remove" GUID="191705,191706,191707,191741,191742,191743" Path="/Values/ItemEffect/EffectTargets/Item[GUID='101258']"></ModOp>  <!-- Chapel -->
   </Group>
@@ -2610,7 +2616,7 @@
       </Asset>
     </ModOp>
     <!-- replace target GUIDs -->
-    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010360']"><!-- School -->
+    <ModOp Type="replace" Path="//Values/ItemEffect/EffectTargets/Item[GUID='1010360']">
       <Item>
         <GUID>1500301943</GUID>
       </Item>
@@ -2625,6 +2631,9 @@
         <GUID>193863</GUID>
       </Item>
     </ModOp>
+    <ModOp Type="merge" GUID="193863" Path="/Values/Text">
+      <TextOverride>1010361</TextOverride>
+    </ModOp>
   </Group>
 
   <!-- # University -->
@@ -2634,6 +2643,9 @@
       <Item>
         <GUID>193872</GUID>
       </Item>
+    </ModOp>
+    <ModOp Type="merge" GUID="193872" Path="/Values/Text">
+      <TextOverride>1010362</TextOverride>
     </ModOp>
   </Group>
 
@@ -2645,6 +2657,9 @@
         <GUID>193871</GUID>
       </Item>
     </ModOp>
+    <ModOp Type="merge" GUID="193871" Path="/Values/Text">
+      <TextOverride>1010365</TextOverride>
+    </ModOp>
   </Group>
 
   <!-- # Members Club -->
@@ -2654,6 +2669,9 @@
       <Item>
         <GUID>193869</GUID>
       </Item>
+    </ModOp>
+    <ModOp Type="merge" GUID="193869" Path="/Values/Text">
+      <TextOverride>1010364</TextOverride>
     </ModOp>
   </Group> 
 
@@ -2688,7 +2706,7 @@
     </ModOp>
   </Group>
 
-  <!-- # Subway Station (potentially useful for NH) -->
+  <!-- # Subway Station -->
   <Group>
     <ModOp Type="addNextSibling" GUID="190886">
       <Asset>
