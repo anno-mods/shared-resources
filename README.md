@@ -48,7 +48,9 @@ Please open issues or create PRs in their respective repositories instead.
   - Replaces peppers with vegetables
 - Recipe Buildings: [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Vanilla buildings converted into recipe buildings 
-  
+- Products and Productions: [Drakkam/shared-mods](https://github.com/Drakkam/Shared-Anno-Mods)
+  - Products: Eggs, Bottles, Lenses, Fedora, Cameras, Ink, Marble Slabs, Marble Stones ...
+    
 ### Textures and Assets
 
 - Shared Objects: [muggenstuermer/Shared_Objects_MU](https://github.com/muggenstuermer/Shared_Objects_MU)
