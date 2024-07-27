@@ -71,7 +71,17 @@ Result:
 - Include previous population if you add an entry to a lower tier, e.g. add `Farmer` if you want to add an `Worker` unlocked chain into the Farmers tab.
 
 Currently available populations are:
-- OW: `Farmer`, `Worker`, `Artisan`, `Engineer`
+
+Menu | GUID | Valid Tags
+---|---|---
+Farmers | 25000189 | `Farmer`, `Worker`, `Artisan`, `Engineer`, `Investor`
+Workers | 25000190 | `Worker`, `Artisan`, `Engineer`, `Investor`
+Artisans | 25000191 | `Artisan`, `Engineer`, `Investor`
+Engineers | 25000192 | `Engineer`, `Investor`
+Investors | 500447 | `Investor`
+Jornaleros | 25000193 | `Jornalero`, `Obrero`, `Artista`
+Obreros | 25000194 | `Obrero`, `Artista`
+OW Consumables | 500945 | `Farmer`, `Worker`, `Artisan`, `Tourist`, `Engineer`, `Investor`, `Scholar`
 
 Feel free to contribute other populations as well.
 
