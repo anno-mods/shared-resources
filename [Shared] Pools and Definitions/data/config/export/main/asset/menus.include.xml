@@ -80,6 +80,52 @@
     </ModOp> -->
   </Group>
 
+  <!-- Tourists -->
+  <Group>
+    <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='100429']">
+      <Artisan>250</Artisan>
+      <Tourist>0</Tourist>
+    </ModOp>
+    <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='601326' or Building='601445']">
+      <Tourist>0</Tourist>
+    </ModOp>
+    <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='132780']">
+      <Tourist>250</Tourist>
+    </ModOp>
+    <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='133496']">
+      <Tourist>300</Tourist>
+    </ModOp>
+    <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='132782']">
+      <Tourist>550</Tourist>
+    </ModOp>
+    <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='137608']">
+      <Tourist>850</Tourist>
+    </ModOp>
+    <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='137607']">
+      <Tourist>1250</Tourist>
+    </ModOp>
+    <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='132781']">
+      <Tourist>1500</Tourist>
+    </ModOp>
+    <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='137609']">
+      <Tourist>2000</Tourist>
+    </ModOp>
+    <!-- inconsistent, so don't mark to keep it always last -->
+    <!-- <ModOp Type="merge" GUID="132779"
+      Path="/Values/ConstructionCategory/BuildingList/Item[Building='137609']">
+      <Tourist>850</Tourist>
+    </ModOp> -->
+  </Group>
+
   <!-- Engineers -->
   <Group>
     <ModOp Type="merge" GUID="25000192"
