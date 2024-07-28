@@ -104,6 +104,36 @@ Feel free to contribute other populations as well.
 </ModOp>
 ```
 
+When adding a need, make sure to flag the region.
+
+```xml
+<ModOp Type="addNextSibling" GUID="601379" Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010213']">
+  <Item>
+    <Product>1500300060</Product>
+    <Amount>0.008333333</Amount>
+    <SupplyWeight>55</SupplyWeight>
+    <MoneyValue>55</MoneyValue>
+    <FullWeightPopulationCount>30</FullWeightPopulationCount>
+    <NoWeightPopulationCount>29</NoWeightPopulationCount>
+    <RequiredBuildings>
+      <Item>
+        <RequiredBuilding>601445</RequiredBuilding>
+        <Region>Moderate</Region>
+      </Item>
+    </RequiredBuildings>
+  </Item>
+</ModOp>
+```
+
+Do the following if you want to remove a need, e.g. bread from OW hotels.
+
+```xml
+<ModOp Type="remove" GUID="601379"
+    Path="/Values/PopulationLevel7/PopulationInputs/Item[Product='1010213']/RequiredBuildings/Item[Region='Moderate']" />
+```
+
+Never replace a need, always remove and add.
+
 ### Construction Menu Descriptions
 
 The mod enableds you to change the words "Production Chain" in the construction chain InfoTip.
