@@ -1224,15 +1224,6 @@
               <Item>
                 <GUID>1500301920</GUID>
               </Item>
-              <Item>
-                <GUID>112667</GUID>
-              </Item>
-              <Item>
-                <GUID>112673</GUID>
-              </Item>
-              <Item>
-                <GUID>116034</GUID>
-              </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
         </Values>
