@@ -120,6 +120,9 @@
               </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010308</TextOverride>
+          </Text>
         </Values>
       </Asset>
     </ModOp>
@@ -145,6 +148,9 @@
               </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010307</TextOverride>
+          </Text>
         </Values>
       </Asset>
     </ModOp>
