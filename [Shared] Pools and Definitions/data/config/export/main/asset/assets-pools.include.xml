@@ -45,6 +45,9 @@
               <Item>
                 <GUID>1010305</GUID>
               </Item>
+              <Item>
+                <GUID>2121002</GUID> <!-- Kingsgrove MultiMine Recipe Iron -->
+              </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
         </Values>
@@ -78,6 +81,9 @@
               <Item>
                 <GUID>1010304</GUID>
               </Item>
+              <Item>
+                <GUID>2121003</GUID> <!-- Kingsgrove MultiMine Recipe Coal -->
+              </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
           <Text>
@@ -91,6 +97,62 @@
       <Item>
         <GUID>1999003463</GUID>
       </Item>
+    </ModOp>
+  </Group>
+
+  <!-- # Copper Mine -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="119">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>2100116000</GUID>
+            <Name>Copper mine</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010308</GUID>
+              </Item>
+              <Item>
+                <GUID>2121006</GUID> <!-- Kingsgrove MultiMine Recipe Copper -->
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010308</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+   <!-- # Zinc Mine -->
+   <Group>
+    <ModOp Type="addNextSibling" GUID="119">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>2100116001</GUID>
+            <Name>Copper mine</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010307</GUID>
+              </Item>
+              <Item>
+                <GUID>2121005</GUID> <!-- Kingsgrove MultiMine Recipe Zinc -->
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010307</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
     </ModOp>
   </Group>
 
@@ -108,6 +170,9 @@
             <EffectTargetGUIDs>
               <Item>
                 <GUID>1010309</GUID>
+              </Item>
+              <Item>
+                <GUID>2121004</GUID><!-- Kingsgrove MultiMine Recipe Cement -->
               </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
@@ -2200,7 +2265,7 @@
                 <GUID>1010302</GUID>
               </Item>
               <Item>
-                <GUID>5659</GUID>
+                <GUID>2100115823</GUID>
               </Item>
             </EffectTargetGUIDs>
           </ItemEffectTargetPool>
