@@ -50,7 +50,10 @@ Please open issues or create PRs in their respective repositories instead.
   - Vanilla buildings converted into recipe buildings 
 - Products and Productions: [Drakkam/shared-mods](https://github.com/Drakkam/Shared-Anno-Mods)
   - Products: Eggs, Bottles, Lenses, Fedora, Cameras, Ink, Marble Slabs, Marble Stones ...
-    
+- Products and Productions: [Hier0nimus/shared-mods](https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/tag/SHARED)
+  - Products: Clean Water, Galena, Gunpowder, Horses, Lead, Strings
+  - Mechanic: Ship Flags
+
 ### Textures and Assets
 
 - Shared Objects: [muggenstuermer/Shared_Objects_MU](https://github.com/muggenstuermer/Shared_Objects_MU)
