@@ -51,7 +51,7 @@ Please open issues or create PRs in their respective repositories instead.
 - Products and Productions: [Drakkam/shared-mods](https://github.com/Drakkam/Shared-Anno-Mods)
   - Products: Eggs, Bottles, Lenses, Fedora, Cameras, Ink, Marble Slabs, Marble Stones ...
 - Products and Productions: [Hier0nimus/shared-mods](https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/tag/SHARED)
-  - Products: Clean Water, Galena, Gunpowder, Horses, Lead, Strings, Flutes, Djembe
+  - Products: Clean Water, Galena, Gunpowder, Horses, Lead, Strings, Flutes, Djembe, Sawdust
   - Mechanic: Ship Flags
 
 ### Textures and Assets
