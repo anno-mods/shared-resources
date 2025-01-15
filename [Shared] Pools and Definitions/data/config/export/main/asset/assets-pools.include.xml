@@ -2780,4 +2780,106 @@
     </ModOp>
   </Group>
 
+  <!-- # Sail Maker -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="190886">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1742000426</GUID>
+            <Name>Post Office</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010288</GUID>
+              </Item>
+              <Item>
+                <GUID>101265</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010288</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Post Office -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="190886">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1742000199</GUID>
+            <Name>Post Office</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>3741</GUID>
+              </Item>
+              <Item>
+                <GUID>538</GUID>
+              </Item>
+              <Item>
+                <GUID>4455</GUID>
+              </Item>
+              <Item>
+                <GUID>4260</GUID>
+              </Item>
+              <Item>
+                <GUID>1500010817</GUID>
+              </Item>
+              <Item>
+                <GUID>1440137100</GUID>
+              </Item>
+              <Item>
+                <GUID>1440137101</GUID>
+              </Item>
+              <Item>
+                <GUID>1440137110</GUID>
+              </Item>
+              <Item>
+                <GUID>1440137111</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # All Tea Companies -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="190886">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1742000423</GUID>
+            <Name>All Tea Companies</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>114468</GUID>
+              </Item>
+              <Item>
+                <GUID>1500010940</GUID>
+              </Item>
+              <Item>
+                <GUID>1500011162</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
 </ModOps>
