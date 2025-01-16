@@ -26,13 +26,24 @@ Please open issues or create PRs in their respective repositories instead.
   - Adaptation of UI elements of the permits
 - **Info Description Parts:** [Qurila/shared-mods](https://github.com/Qurila/shared-mods)
   - Building blocks for extended InfoDescrptions
-- **Neutral Hacienda:** [Taludas/neutral_Hacienda](https://github.com/Taludas/neutral_Hacienda)
-  - You are now able to create a Hacienda clone with a clean and neutral Interface.
 - **Serps Helper-mods:** [Serpens66/Anno-1800-SharedMods-for-Modders-](https://github.com/Serpens66/Anno-1800-SharedMods-for-Modders-)
   - Helpful utility like shared mods, eg. Triggers to know who is Human/AI and which one.
+
+ 
+### UI and Infotips
 - **Infotip Fix Tourist Buildings** [lion053/shared-mods](https://github.com/lion053/shared-mods)
-  - Applies vanilla tourism building infotips for all modded hotels and visitor piers. 
-  
+  - Applies vanilla tourism building infotips for all modded hotels and visitor piers.
+- **Serps Infotip-mods:** [Serpens66/Anno-1800-SharedMods-for-Modders-](https://github.com/Serpens66/Anno-1800-SharedMods-for-Modders-)
+  - Fixes for the Hacienda Policies when you use a Hacienda Clone, Input/Output Amount in the Building Tooltip, support for multiple InputAmountUpgrades etc.
+- **Neutral Hacienda:** [Taludas/neutral_Hacienda](https://github.com/Taludas/neutral_Hacienda)
+  - You are now able to create a Hacienda clone with a clean and neutral Interface.
+- **Neutral Airship Plattform:** [Taludas/SharedMods](https://github.com/Taludas/SharedMods)
+  - You are now able to create an Airship Platform clone with a clean and neutral Interface.
+- **Neutral Irontower Workforce Slider:** [Taludas/SharedMods](https://github.com/Taludas/SharedMods)
+  - You are now able to use the workforce slider to increase a buff's range with other workforce than Tourists.
+- **Neutral After Monument Event Festival Reward Infotip:** [Taludas/SharedMods](https://github.com/Taludas/SharedMods)
+  - You are now able to reuse the Stadium mechanic to start a festival after a monument event with a neutral buff infotip
+ 
 ### Products and Productions
 
 - Extra Goods: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
@@ -53,6 +64,9 @@ Please open issues or create PRs in their respective repositories instead.
 - Products and Productions: [Hier0nimus/shared-mods](https://github.com/Hier0nimus/anno-mods-hier0nimus/releases/tag/SHARED)
   - Products: Clean Water, Galena, Gunpowder, Horses, Lead, Strings, Flutes, Djembe, Sawdust
   - Mechanic: Ship Flags
+- Products and Productions: [Taludas/SharedMods](https://github.com/Taludas/SharedMods)
+  - Products: Almonds, Apple Cider, Avocados, Diamonds, Ebony, Fish Stew, Guacamole, Honey, Lacquerware, Limestone (renamed cement), Lobster Dinner, Luxury Furniture, Marzipan, Paintings, Potash, Saffron, Silk Fabric, Soda, Sweets, Tortillas, Wine (renamed champagne)
+  - Productions: Avocado Farm and Hacienda version, Guacamole Kitchen, Tortilla Mill, Potash Works
 
 ### Textures and Assets
 
