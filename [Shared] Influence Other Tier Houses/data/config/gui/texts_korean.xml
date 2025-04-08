@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1414018314</GUID>
+      <Text>다른 티어 하우스</Text>
+    </Text>
+  </ModOp>
+</ModOps>

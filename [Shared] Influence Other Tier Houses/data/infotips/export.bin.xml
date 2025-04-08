@@ -1,0 +1,12 @@
+<ModOps>
+    <ModOp Path ="//InfoTipData[Guid='500880']/InfoElement[Text/TextGUID='2456']/Icon" Type = "replace">
+      <Icon>
+        <IconGUID>1010343</IconGUID>
+      </Icon>
+    </ModOp>
+    <ModOp Path ="//InfoTipData[Guid='500880']/InfoElement[Text/TextGUID='2456']/Text" Type = "replace">
+      <Text>
+        <TextGUID>1414018314</TextGUID>
+      </Text>
+    </ModOp>
+</ModOps>

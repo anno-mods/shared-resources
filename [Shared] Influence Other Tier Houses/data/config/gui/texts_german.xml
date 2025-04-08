@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1414018314</GUID>
+      <Text>Häuser anderer Stufen</Text>
+    </Text>
+  </ModOp>
+</ModOps>

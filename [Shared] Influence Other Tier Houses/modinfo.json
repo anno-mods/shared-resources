@@ -1,0 +1,20 @@
+{
+  "Version": "1",
+  "ModID": "ToolTip_OtherResidences",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "LoadAfterIds": null,
+  "Category": {
+    "English": "Fix",
+    "German": "Fix"
+  },
+  "ModName": {
+    "English": "Influence Tooltip",
+    "German": "Einfluss Tooltip"
+  },
+  "Description": {
+    "English": "Changes Engineer Category for influence to \"Other Tier Houses\" ",
+    "German": "Benennt die Kategorie \"Ingenieure\" zu \"Häuser anderer Stufen\" um"
+  },
+  "DLCDependencies": null
+}
