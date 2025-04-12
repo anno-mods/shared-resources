@@ -2824,6 +2824,62 @@
     </ModOp>
   </Group>
 
+  <!-- # Samba School -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="119">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500303172</GUID>
+            <Name>Samba School</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>5840</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>5840</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
+  <!-- # Cinema -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="119">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500303173</GUID>
+            <Name>Cinema</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>6018</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>6018</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace original target GUIDs -->
+    <ModOp Type="replace" Path="//Values/ItemEffect/EffectTargets/Item[GUID='6018']">
+      <Item>
+        <GUID>1500303171</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
   <!-- # Subway Station -->
   <Group>
     <ModOp Type="addNextSibling" GUID="190886">
