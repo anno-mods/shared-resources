@@ -1,18 +1,13 @@
 const child_process = require('child_process');
 const path = require('path');
 const glob = require('glob');
+const fs = require('fs');
 
-const mods = glob.sync("./out/*");
+const mods = glob.sync("./out/*/modinfo.json");
 mods.forEach(modPath => {
-  const package = path.basename(modPath);
-  const zipName = package
-    .replace(/\s/g, '-')
-    .replace(/\[|\]|\(|\)/g, '')
-    .toLowerCase()
-    // skip category for some
-    .replace('ui-', '')
-    // ModID and ModName don't match
-    .replace('fix-influence-tooltip', 'ToolTip_OtherResidences');
+  const package = path.basename(path.dirname(modPath));
+  const modinfo = JSON.parse(fs.readFileSync(modPath, 'utf8'));
+  const zipName = modinfo.ModID;
 
   child_process.execFileSync('tar', [
     '-c', '-a',
