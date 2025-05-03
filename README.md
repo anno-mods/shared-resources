@@ -7,13 +7,28 @@ Please open issues or create PRs in their respective repositories instead.
 
 ## Shared Mods
 
-- `shared-pools-and-definitions`
-  - Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
-  - Construction menu helper
-  - Hotel needs for compatibility with New World Tourism
-  - [Full documentation](./[Shared]%20Pools%20and%20Definitions/README.md)
-- `shared-one-step-influence`
-  - Change guildhouse type influence into 20 times 1-base point instead of 1 time 20-based so that you can create e.g. 5 point buildings
+### **Pools and Definitions** `shared-pools-and-definitions`
+
+- Shared pools like "All Sand Mines" to allow multiple mods using the same new pools.
+- Construction menu helper
+- Hotel needs for compatibility with New World Tourism
+- [Full documentation](./[Shared]%20Pools%20and%20Definitions/README.md)
+
+### **One Step Influence** `shared-one-step-influence`
+
+- Changes guildhouse type influence into 20 times 1-base point instead of 1 time 20-based so that you can create e.g. 5 point buildings
+
+### **Influence Other Tier Houses** `ToolTip_OtherResidences`
+
+- Changes Engineer Category for influence to "Other Tier Houses"
+
+### **Merge Tabs** `merge-tabs-jakob`
+
+- Automatically merge progression tier tabs when you run out of space.
+
+- See [Merge Tabs README](./[Shared]%20Merge%20Tabs/README.md) for details and how to use.
+<br/>&nbsp;<br/>
+![](./doc/merge-menus.jpg)
 
 ## Shared Mods in other Repositories
 
@@ -111,6 +126,7 @@ Shared mods in this repository may be used by many others. Strict rules are need
 - Modifications that will be seen by all players (e.g. pools) have to include all translations.
 - Size should be kept as small as possible. Shared mods will be repeated in every Mod that is using it.
 - No modloader warnings.
+- Naming scheme: ModID should match ModName to allow automatic dependency in VSCode Build & Deploy.
 
 If your shared mod follows different rules, is very big or only useful for a few then simply linking it in the above mods section may be the better choice.
 
