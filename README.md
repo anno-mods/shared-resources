@@ -26,7 +26,7 @@ Please open issues or create PRs in their respective repositories instead.
 
 - Automatically merge progression tier tabs when you run out of space.
 
-- See [Merge Tabs README](./[Shared]%20Merge%20Tabs/README.md) for details and how to use.
+- See [Merge Tabs README](./[UI]%20Merge%20Tabs/README.md) for details and how to use.
 <br/>&nbsp;<br/>
 ![](./doc/merge-menus.jpg)
 
