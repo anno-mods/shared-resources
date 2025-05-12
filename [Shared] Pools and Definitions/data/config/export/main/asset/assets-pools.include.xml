@@ -730,6 +730,43 @@
     <ModOp Type="remove" Path="//ItemEffect/EffectTargets/Item[GUID='114459']"></ModOp><!-- Teff Mill -->
   </Group>
 
+  <!-- # All Paper Mills -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="194011">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500302632</GUID>
+            <Name>All Paper Mills</Name>
+          </Standard>
+          <Text>
+            <TextOverride>117744</TextOverride>
+          </Text>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>117744</GUID>
+              </Item>
+              <Item>
+                <GUID>2100115081</GUID><!-- Lions Paper Mill -->
+              </Item>
+              <Item>
+                <GUID>2100115087</GUID><!-- Lions Paper Mill -->
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" GUID="190844,190843,190845" Path="/Values/ItemEffect/EffectTargets/Item[GUID='117744']"><!-- Paper Mill -->
+      <Item>
+        <GUID>1500302632</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
   <!-- # Rum Distillery -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
