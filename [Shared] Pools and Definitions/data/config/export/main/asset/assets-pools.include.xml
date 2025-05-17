@@ -1262,6 +1262,37 @@
     </ModOp>   
   </Group> 
 
+  <!-- # Motor Assembly Line -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="190886">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500303174</GUID>
+            <Name>Motor Assembly Line</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010302</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010302</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010302']"><!-- Motor Assembly Line -->
+      <Item>
+        <GUID>1500303174</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
   <!-- # Cheese Dairy -->
   <Group>
     <ModOp Type="addNextSibling" GUID="190886">
@@ -2299,7 +2330,7 @@
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
               <Item>
-                <GUID>1010302</GUID>
+                <GUID>1500303174</GUID>
               </Item>
               <Item>
                 <GUID>2100115823</GUID>
@@ -2310,11 +2341,12 @@
       </Asset>
     </ModOp>
     <!-- replace target GUIDs -->
-    <ModOp Type="replace" GUID="112374,112375,112376" Path="/Values/ItemEffect/EffectTargets/Item[GUID='1010302']"><!-- Motor -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets[Item/GUID='1500303174' and Item/GUID='2100115823']/Item[GUID='1500303174']"><!-- Motor -->
       <Item>
         <GUID>1500301946</GUID>
       </Item>
     </ModOp>
+    <ModOp Type="remove" Path="//ItemEffect/EffectTargets[Item/GUID='1500301946' and Item/GUID='2100115823']/Item[GUID='2100115823']"></ModOp>
   </Group>
 
   <!-- # All River Buildings -->
