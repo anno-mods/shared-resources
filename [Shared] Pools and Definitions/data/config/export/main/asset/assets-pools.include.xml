@@ -136,7 +136,7 @@
         <Values>
           <Standard>
             <GUID>2100116001</GUID>
-            <Name>Copper mine</Name>
+            <Name>Zinc mine</Name>
           </Standard>
           <ItemEffectTargetPool>
             <EffectTargetGUIDs>
@@ -395,7 +395,7 @@
       </Asset>
     </ModOp>
     <!-- replace original target GUIDs -->
-    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010327']">
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010327']" Condition="//ItemEffect/EffectTargets/Item[GUID='1010327']">
       <Item>
         <GUID>1742200020</GUID>
       </Item>
@@ -457,7 +457,7 @@
       </Asset>
     </ModOp>
     <!-- replace original target GUIDs -->
-    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010321']">
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010321']" Condition="//ItemEffect/EffectTargets/Item[GUID='1010321']">
       <Item>
         <GUID>1742200022</GUID>
       </Item>
@@ -550,7 +550,7 @@
       </Asset>
     </ModOp>
     <!-- replace original target GUIDs -->
-    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010289']">
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010289']" Condition="//ItemEffect/EffectTargets/Item[GUID='1010289']">
       <Item>
         <GUID>1742200025</GUID>
       </Item>
