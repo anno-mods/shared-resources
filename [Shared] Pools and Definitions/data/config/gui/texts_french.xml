@@ -277,28 +277,8 @@
       <Text>Toutes les cuisines</Text>
     </Text>
     <Text>
-      <GUID>1742000426</GUID>
-      <Text>Tous les voiliers</Text>
-    </Text>
-    <Text>
-      <GUID>1742000425</GUID>
-      <Text>Toute la production d’instruments à cordes</Text>
-    </Text>
-    <Text>
-      <GUID>1742000424</GUID>
-      <Text>Toutes les usines chimiques : Laque</Text>
-    </Text>
-    <Text>
       <GUID>1742000422</GUID>
       <Text>Tous les travaux d’engrais et les plantes de fumier</Text>
-    </Text>
-    <Text>
-      <GUID>1742200036</GUID>
-      <Text>Toutes les usines de colis de soins</Text>
-    </Text>
-    <Text>
-      <GUID>1742200038</GUID>
-      <Text>Production de violons</Text>
     </Text>
   </ModOp>
 </ModOps>

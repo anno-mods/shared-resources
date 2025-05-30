@@ -277,28 +277,8 @@
       <Text>Todas las cocinas</Text>
     </Text>
     <Text>
-      <GUID>1742000426</GUID>
-      <Text>Todos los fabricantes de velas</Text>
-    </Text>
-    <Text>
-      <GUID>1742000425</GUID>
-      <Text>Toda la producción de instrumentos de cuerda</Text>
-    </Text>
-    <Text>
-      <GUID>1742000424</GUID>
-      <Text>Todas las plantas químicas: Laca</Text>
-    </Text>
-    <Text>
       <GUID>1742000422</GUID>
       <Text>Todas las fábricas de fertilizantes y plantas de estiércol</Text>
-    </Text>
-    <Text>
-      <GUID>1742200036</GUID>
-      <Text>Todas las fábricas de paquetes de ayuda</Text>
-    </Text>
-    <Text>
-      <GUID>1742200038</GUID>
-      <Text>Producción de violines</Text>
     </Text>
   </ModOp>
 </ModOps>

@@ -277,28 +277,8 @@
       <Text>Alle Küchen und Garküchen</Text>
     </Text>
     <Text>
-      <GUID>1742000426</GUID>
-      <Text>Alle Segelmacher</Text>
-    </Text>
-    <Text>
-      <GUID>1742000425</GUID>
-      <Text>Gesamte Produktion von Streichinstrumenten</Text>
-    </Text>
-    <Text>
-      <GUID>1742000424</GUID>
-      <Text>Alle chemischen Anlagen: Lack</Text>
-    </Text>
-    <Text>
       <GUID>1742000422</GUID>
       <Text>Alle Düngemittelfabriken und Mistpflanzen</Text>
-    </Text>
-    <Text>
-      <GUID>1742200036</GUID>
-      <Text>Alle Care Package Fabriken</Text>
-    </Text>
-    <Text>
-      <GUID>1742200038</GUID>
-      <Text>Geigenbau</Text>
     </Text>
   </ModOp>
 </ModOps>
