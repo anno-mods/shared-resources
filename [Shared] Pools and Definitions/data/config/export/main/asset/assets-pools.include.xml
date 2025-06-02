@@ -989,6 +989,37 @@
     </ModOp>
   </Group>
 
+  <!-- # Cannery -->
+  <Group>
+    <ModOp Type="addNextSibling" GUID="194011">
+      <Asset>
+        <Template>ItemEffectTargetPool</Template>
+        <Values>
+          <Standard>
+            <GUID>1500301032</GUID>
+            <Name>Cannery</Name>
+          </Standard>
+          <ItemEffectTargetPool>
+            <EffectTargetGUIDs>
+              <Item>
+                <GUID>1010295</GUID>
+              </Item>
+            </EffectTargetGUIDs>
+          </ItemEffectTargetPool>
+          <Text>
+            <TextOverride>1010295</TextOverride>
+          </Text>
+        </Values>
+      </Asset>
+    </ModOp>
+    <!-- replace target GUIDs -->
+    <ModOp Type="replace" Path="//ItemEffect/EffectTargets/Item[GUID='1010295']">      <!-- Cannery -->
+      <Item>
+        <GUID>1500301032</GUID>
+      </Item>
+    </ModOp>
+  </Group>
+
   <!-- # All Kitchens and Cookhouses -->
   <Group>
     <ModOp Type="addNextSibling" GUID="194011">
