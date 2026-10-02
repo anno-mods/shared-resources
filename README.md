@@ -82,6 +82,8 @@ Please open issues or create PRs in their respective repositories instead.
 - Products and Productions: [Taludas/SharedMods](https://github.com/Taludas/SharedMods)
   - Products: Almonds, Apple Cider, Avocados, Diamonds, Ebony, Fish Stew, Guacamole, Honey, Lacquerware, Limestone (renamed cement), Lobster Dinner, Luxury Furniture, Marzipan, Paintings, Potash, Saffron, Silk Fabric, Soda, Sweets, Tortillas, Wine (renamed champagne)
   - Productions: Avocado Farm and Hacienda version, Guacamole Kitchen, Tortilla Mill, Potash Works
+- Products and Productions: [Intetsch/shared-mods](https://github.com/Intetsch/shared-mods-intetsch)
+  - Products: Ivory, Spiced Tea, Pistachios, Palm Wood, Lokum, Incense
 
 ### Textures and Assets
 
