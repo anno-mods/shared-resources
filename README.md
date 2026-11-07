@@ -32,6 +32,8 @@ Please open issues or create PRs in their respective repositories instead.
 
 ## Shared Mods in other Repositories
 
+## Anno 1800:
+
 ### General
 
 - **Mod Ornaments Tab:** [muggenstuermer/MU_Anno1800_Mod_Collection](https://github.com/muggenstuermer/MU_Anno1800_Mod_Collection)
@@ -91,6 +93,21 @@ Please open issues or create PRs in their respective repositories instead.
   - Ground decals, fonts
 - Ground Textures/Decals: [jakobharder/anno1800-shared-mods](https://github.com/jakobharder/anno1800-shared-mods)
 
+
+## Anno 117
+
+### Products and Productions
+
+- Products and Productions: [Khayi/shared-mods](https://github.com/khayyi-anno/anno-117-shared-mods)
+  - Beeswax, Cow Pasture, Chicken (Albion and Latium), Eggs, Defretum, Flowers, Gemstones, Goats, Hides, Legumes, Peacocks, Pearls, Pears, Pumice, Milk, Quinces, Salmon, Seeweed, Seeds, Soda Ask, Sulfur, Vegetables, Wildflow, Apples, Figs, Roman Herbs, Venison, Vinegar
+- Cheese from Milk: [Khayi/shared-mods](https://github.com/khayyi-anno/anno-117-shared-mods)
+  - requires Cow Pastures, changes Cheese recipe to use Milk
+- Papyrus Stalks in Egypt: [Khayi/shared-mods](https://github.com/khayyi-anno/anno-117-shared-mods)
+  - replaces Reed with Papyrus
+- Sheep wool and Mutton: [Khayi/shared-mods](https://github.com/khayyi-anno/anno-117-shared-mods)
+  - replaces Sheep input in various production lines to consume Sheep Wool, Shering Shed byproduces Lamb & Mutton
+- Manure: [Khayi/shared-mods](https://github.com/khayyi-anno/anno-117-shared-mods)
+  - animal farms byproduces manure, used to boost fields and plantations
 
 ## How to use
 
