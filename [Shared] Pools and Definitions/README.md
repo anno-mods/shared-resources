@@ -176,6 +176,7 @@ Changing the description of categories and buildings is possible already possibl
 ```
 
 ## Changes
+- 10.14: Corrected Japanese translations (thanks to machax350)
 - 8.3: Adjust/add pools (Kurila)
 - 8.2: Updated Korean translations (thanks to modpark817)
 - 8.2: Added Timber production pool
