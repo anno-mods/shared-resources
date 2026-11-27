@@ -130,11 +130,11 @@
     </Text>
     <Text>
       <GUID>1500301937</GUID>
-      <Text>肥料工場</Text>
+      <Text>肥料製造所</Text>
     </Text>
     <Text>
       <GUID>1500301938</GUID>
-      <Text>すべてのハシエンダ宿舎</Text>
+      <Text>すべての大農園の住居</Text>
     </Text>
     <Text>
       <GUID>1500301940</GUID>
@@ -154,7 +154,7 @@
     </Text>
     <Text>
       <GUID>191042</GUID>
-      <Text>すべての掘削リグ</Text>
+      <Text>すべての油井</Text>
     </Text>
     <Text>
       <GUID>1500301945</GUID>
@@ -170,23 +170,23 @@
     </Text>
     <Text>
       <GUID>1500301948</GUID>
-      <Text>すべての農家住宅</Text>
+      <Text>すべての農家の住居</Text>
     </Text>
     <Text>
       <GUID>1500301949</GUID>
-      <Text>すべての労働者住宅</Text>
+      <Text>すべての労働者の住居</Text>
     </Text>
     <Text>
       <GUID>1500301950</GUID>
-      <Text>すべてのアルティスタ住宅</Text>
+      <Text>すべてのアルティスタの住居</Text>
     </Text>
     <Text>
       <GUID>1500301951</GUID>
-      <Text>すべての羊飼い住宅</Text>
+      <Text>すべての羊飼いの住居</Text>
     </Text>
     <Text>
       <GUID>1500301952</GUID>
-      <Text>すべての長老住宅</Text>
+      <Text>すべての長老の住居</Text>
     </Text>
     <Text>
       <GUID>1500301024</GUID>
@@ -202,7 +202,7 @@
     </Text>
     <Text>
       <GUID>1500301029</GUID>
-      <Text>すべての北極鉱山</Text>
+      <Text>すべての北極の鉱山</Text>
     </Text>
     <Text>
       <GUID>2100115704</GUID>
@@ -214,35 +214,35 @@
     </Text>
     <Text>
       <GUID>1742000423</GUID>
-      <Text>お茶の会社</Text>
+      <Text>すべての製茶施設</Text>
     </Text>
     <Text>
       <GUID>1742200027</GUID>
-      <Text>すべてのエクスプローラーレジデンス</Text>
+      <Text>すべての探検家の住居</Text>
     </Text>
     <Text>
       <GUID>1742200028</GUID>
-      <Text>すべてのテクニシャンレジデンス</Text>
+      <Text>すべての技術家の住居</Text>
     </Text>
     <Text>
       <GUID>1742200029</GUID>
-      <Text>すべてのアークティックレジデンス</Text>
+      <Text>すべての北極の住居</Text>
     </Text>
     <Text>
       <GUID>1742200030</GUID>
-      <Text>すべての北極圏ガス鉱山</Text>
+      <Text>すべての北極のガス鉱床</Text>
     </Text>
     <Text>
       <GUID>1742200031</GUID>
-      <Text>すべてのガス鉱山</Text>
+      <Text>すべてのガス採掘施設</Text>
     </Text>
     <Text>
       <GUID>1742000421</GUID>
-      <Text>すべての北極圏デポ</Text>
+      <Text>すべての北極の貯蔵所</Text>
     </Text>
     <Text>
       <GUID>1742000414</GUID>
-      <Text>すべてのモニュメント建設フェーズ</Text>
+      <Text>すべてのモニュメントの建設工程</Text>
     </Text>
     <Text>
       <GUID>1742000418</GUID>
@@ -250,7 +250,7 @@
     </Text>
     <Text>
       <GUID>1742000422</GUID>
-      <Text>すべての肥料作品と糞植物</Text>
+      <Text>すべての肥料製造所とフン処理工場</Text>
     </Text>
   </ModOp>
 </ModOps>
