@@ -94,7 +94,7 @@
     </Text>
     <Text>
       <GUID>1500300911</GUID>
-      <Text>すべての竪穴</Text>      <!-- 191592 -->
+      <Text>すべての露天掘り鉱山</Text>      <!-- 191592 -->
     </Text>
     <Text>
       <GUID>1500300912</GUID>
@@ -122,11 +122,11 @@
     </Text>
     <Text>
       <GUID>2100115287</GUID>
-      <Text>地下鉄の駅</Text>
+      <Text>地下鉄駅</Text>
     </Text>
     <Text>
       <GUID>1500300916</GUID>
-      <Text>乳業</Text>
+      <Text>乳製品工場</Text>
     </Text>
     <Text>
       <GUID>1500301937</GUID>
@@ -138,19 +138,19 @@
     </Text>
     <Text>
       <GUID>1500301940</GUID>
-      <Text>全製錬所</Text>
+      <Text>すべての製錬所</Text>
     </Text>
     <Text>
       <GUID>1500301941</GUID>
-      <Text>全武器工場</Text>
+      <Text>すべての武器工場</Text>
     </Text>
     <Text>
       <GUID>1500301942</GUID>
-      <Text>すべてのハンティングキャビン</Text>
+      <Text>すべての狩猟小屋</Text>
     </Text>
     <Text>
       <GUID>1500301944</GUID>
-      <Text>すべての北極圏ハンティングキャビン</Text>
+      <Text>すべての北極の狩猟小屋</Text>
     </Text>
     <Text>
       <GUID>191042</GUID>
@@ -162,31 +162,31 @@
     </Text>
     <Text>
       <GUID>1500301946</GUID>
-      <Text>全エンジン工場</Text>
+      <Text>すべてのモーター工場</Text>
     </Text>
     <Text>
       <GUID>1500301947</GUID>
-      <Text>オール・リバー・ビル</Text>
+      <Text>すべての河川施設</Text>
     </Text>
     <Text>
       <GUID>1500301948</GUID>
-      <Text>全農レジデンス</Text>
+      <Text>すべての農家住宅</Text>
     </Text>
     <Text>
       <GUID>1500301949</GUID>
-      <Text>全労働者の住居</Text>
+      <Text>すべての労働者住宅</Text>
     </Text>
     <Text>
       <GUID>1500301950</GUID>
-      <Text>すべてのアルティスタ・レジデンス</Text>
+      <Text>すべてのアルティスタ住宅</Text>
     </Text>
     <Text>
       <GUID>1500301951</GUID>
-      <Text>すべてのシェパード・レジデンス</Text>
+      <Text>すべての羊飼い住宅</Text>
     </Text>
     <Text>
       <GUID>1500301952</GUID>
-      <Text>すべてのエルダー・レジデンス</Text>
+      <Text>すべての長老住宅</Text>
     </Text>
     <Text>
       <GUID>1500301024</GUID>
